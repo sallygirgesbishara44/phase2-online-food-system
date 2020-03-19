@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
   <body class="bg-light">
@@ -44,7 +44,7 @@
     </div>
     <div class="col-md-8 order-md-1">
       <h4 class="mb-3">Billing address</h4>
-      <form class="needs-validation" action="{{url('/payment')}}"  method="post">
+      <form class="needs-validation" action="{{url('/')}}"  method="post">
         @csrf
 
 
