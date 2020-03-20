@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 Route::get('/payment', 'BillingController@paymentMethod');
 Route::post('/','BillingController@savePayment');
+Route::get('/master', function () {
+    return view('layouts.master');
+});
