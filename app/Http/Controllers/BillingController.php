@@ -15,4 +15,9 @@ class BillingController extends Controller
        $payment -> paymentMethod = $req -> input('paymentMethod') ;
        $payment -> save();
     }
+    public function paymentMethod(){
+      $title = 'Payment';
+      return view('Paymethod')->with('title', $title);
+}
+
 }
