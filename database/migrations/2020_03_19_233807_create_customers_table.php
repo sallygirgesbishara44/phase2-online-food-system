@@ -18,11 +18,11 @@ class CreateCustomersTable extends Migration
                 $table->id();
                 $table->string('first_name');
                 $table->string('last_name');
-                $table->string('user_name');
+                $table->string('user_name')->unique();
                 $table->text('address');
                 $table->string('e_mail');
                 
-                $table->string('password')->unique();
+                $table->string('password');
                 $table->timestamps();
                   
         });
