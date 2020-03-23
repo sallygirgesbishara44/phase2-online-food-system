@@ -38,8 +38,8 @@
             </li>
             
           </ul>
-          <span class="navbar-text">
-            <i><strong>BURGER BAR</strong></i>
+          <span class="navbar-text" style="font-size:23px">
+            <i><strong>BURGERBAR</strong></i>
           </span>
         </div>
       </nav>

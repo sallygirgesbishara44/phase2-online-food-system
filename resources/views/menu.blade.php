@@ -448,11 +448,11 @@
                                                          style="display:block;max-width:150px;"
                             
                                 >
-                            <a href='https://demo-burgerbar.ucraft.net'>
+                           
                     <div class="fixed-ratio" style="padding-bottom: 22.5%">
                 <img data-logo-element class="fixed-ratio-content lazy"  data-src="https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/logo.png?v=1514485357" alt="Ucraft"/>
             </div>
-            </a>
+            
                         </div>
                                         <div
                             class="  module ModuleNavigation "
@@ -2666,7 +2666,7 @@
     });
 
 </script>
-<
+
     
 
 
