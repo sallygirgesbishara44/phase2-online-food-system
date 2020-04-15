@@ -30,6 +30,7 @@
     padding: 12px 12px 12px 0;
     display: inline-block;
     color: rgb(29, 22, 22);
+    text-shadow: 1px 1px;
   }
   
   input[type=submit] {
@@ -46,7 +47,7 @@ color: rgb(39, 38, 38);
 margin-left: 10px;
 font-size: 35px;
 font-weight: 200;
-
+text-shadow: 2px 2px;
   }
   
   input[type=submit]:hover {

@@ -23,3 +23,6 @@ Route::get('/register/submit','customerscontroller@register');
  Route::get('/menu', function () {
     return view('menu');
 });
+Route::get('/contacts', function () {
+    return view('contacts');
+});

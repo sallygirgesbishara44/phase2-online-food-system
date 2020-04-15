@@ -14,8 +14,14 @@
     <style>
         body{
             
-            background-color: cadetblue
-            
+            background-image: url("https://www.cairowestmag.com/wp-content/uploads/2018/11/Burger-Factory3.jpeg");
+            -webkit-background-size: cover;
+            background-position: center center;
+            height: 100%;
+            background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+            backdrop-filter: blur(4px);
         }
         </style>
   </head>
@@ -34,7 +40,7 @@
               <a class="nav-link" href="/menu">Menu <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="/contacts">Contact Us</a>
             </li>
             
           </ul>
