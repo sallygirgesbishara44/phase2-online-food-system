@@ -44,7 +44,7 @@
                   content="%7B%22bundles%22%3A%7B%22account-engine%22%3A%7B%22assets%22%3A%5B%7B%22uri%22%3A%22https%3A%2F%2Fstatic.ucraft.app%2Ffrontend-public%2Fengines-dist%2Faccount-engine%2Fassets%2Fengine-vendor.js%22%2C%22type%22%3A%22js%22%7D%2C%7B%22uri%22%3A%22https%3A%2F%2Fstatic.ucraft.app%2Ffrontend-public%2Fengines-dist%2Faccount-engine%2Fassets%2Fengine.css%22%2C%22type%22%3A%22css%22%7D%2C%7B%22uri%22%3A%22https%3A%2F%2Fstatic.ucraft.app%2Ffrontend-public%2Fengines-dist%2Faccount-engine%2Fassets%2Fengine.js%22%2C%22type%22%3A%22js%22%7D%2C%7B%22uri%22%3A%22https%3A%2F%2Fstatic.ucraft.app%2Ffrontend-public%2Fengines-dist%2Faccount-engine%2Fassets%2Fintl%2Fintl.complete.js%22%2C%22type%22%3A%22js%22%7D%2C%7B%22uri%22%3A%22https%3A%2F%2Fstatic.ucraft.app%2Ffrontend-public%2Fengines-dist%2Faccount-engine%2Fassets%2Fintl%2Fintl.js%22%2C%22type%22%3A%22js%22%7D%2C%7B%22uri%22%3A%22https%3A%2F%2Fstatic.ucraft.app%2Ffrontend-public%2Fengines-dist%2Faccount-engine%2Fassets%2Fintl%2Fintl.min.js%22%2C%22type%22%3A%22js%22%7D%2C%7B%22uri%22%3A%22https%3A%2F%2Fstatic.ucraft.app%2Ffrontend-public%2Fengines-dist%2Faccount-engine%2Fassets%2Fintl%2Flocales%2Fen.js%22%2C%22type%22%3A%22js%22%7D%2C%7B%22uri%22%3A%22https%3A%2F%2Fstatic.ucraft.app%2Ffrontend-public%2Fengines-dist%2Faccount-engine%2Fassets%2Fintl%2Flocales%2Fhy.js%22%2C%22type%22%3A%22js%22%7D%2C%7B%22uri%22%3A%22https%3A%2F%2Fstatic.ucraft.app%2Ffrontend-public%2Fengines-dist%2Faccount-engine%2Fassets%2Fintl%2Flocales%2Fru.js%22%2C%22type%22%3A%22js%22%7D%5D%7D%2C%22assets%22%3A%7B%22assets%22%3A%5B%5D%7D%7D%7D"/>
             <meta name="public-js/config/environment" content="%7B%22modulePrefix%22%3A%22public-js%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22/%22%2C%22locationType%22%3A%22hash%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%7D%2C%22APP%22%3A%7B%22name%22%3A%22public-js%22%2C%22version%22%3A%220.0.0+56cc87f8%22%7D%2C%22torii%22%3A%7B%22providers%22%3A%7B%22vk-oauth2%22%3A%7B%22apiKey%22%3A%22%22%2C%22redirectUri%22%3A%22%22%7D%2C%22facebook-oauth2%22%3A%7B%22apiKey%22%3A%22%22%2C%22redirectUri%22%3A%22%22%7D%2C%22google-oauth2%22%3A%7B%22apiKey%22%3A%22%22%2C%22redirectUri%22%3A%22%22%2C%22scope%22%3A%22profile%20email%22%7D%7D%7D%2C%22exportApplicationGlobal%22%3Afalse%2C%22ember-modal-dialog%22%3A%7B%7D%7D"/>
             <meta name="account-engine/config/environment" content="%7B%22modulePrefix%22%3A%22account-engine%22%2C%22environment%22%3A%22production%22%2C%22torii%22%3A%7B%22disableRedirectInitializer%22%3Atrue%7D%7D"/>
-            
+
 <meta name="robots" content="index, follow"/>
 
 
@@ -68,11 +68,11 @@
     window.renderCustomCodeOnClientDomain = !renderCustomCodeOnClientDomain ? 0 : parseInt(renderCustomCodeOnClientDomain);
 </script>
 
-    
+
 
 <script type="text/javascript">
 
-    
+
     function tryToRedirectToRightLanguage(languagePrefix) {
 
         if (isCustomDomain()) {
@@ -216,8 +216,8 @@
                                         <div class="header-row-wrapper">
                         <div class="uc-row-wrapper ">
                 <div
-                        class="uc-row  last                           header-row  
-                        
+                        class="uc-row  last                           header-row
+
                                                         "
 
                         data-id="36"
@@ -227,7 +227,7 @@
                     <div class="row-container ">
                                                 <div class="row headerRow "
                                                           style="">
-                            
+
                                                                     <div
         class="column col-xs-12 "
         dataColumn-id="73"
@@ -244,7 +244,7 @@
                                         <div
                             class="  module ModuleNavigation "
                             dataModule-id="126"
-                                                        
+
                                 >
                             <input type="hidden" class="standard-navigation">
 <style>
@@ -256,16 +256,16 @@
         background: rgba(241, 241, 241, 0);
     }
 
-    
-        
+
+
             #navigation-126 .navigation > li.has-childes.page > ul a{
         padding: 0 15px;
     }
             #navigation-126     > div > ul li:hover > ul {
         display: block;
     }
-    
-    
+
+
     	#navigation-126 .page a {
         color: #353535;
         font-size: 16px;
@@ -321,14 +321,14 @@
             #navigation-126 li.page > ul.page-children > li.page > a {
                         color: #353535;
                                font-size: 11px;
-    
+
 
 
 
     }
 
-    
-    
+
+
         #navigation-126 li.page ul.page-children .page {
         padding-top: 5px;
         padding-bottom: 5px;
@@ -351,7 +351,7 @@
         text-align: center;
     }
 
-        
+
          #navigation-126 li.page {
         text-align: center ;;
     }
@@ -359,11 +359,11 @@
 <div id="navigation-126"
      data-nav-sub-page-scollapsible="1"
      class="navigation-inner
-         in-canvas         
+         in-canvas
         vertical standard"
 >
 
-    
+
     </div>
                         </div>
                     </div>
@@ -372,8 +372,8 @@
                                                                                     </div>
                     </div>
 
-                    
-                    
+
+
 
                     <div class="margin-container" data-type="row"
                          >
@@ -382,7 +382,7 @@
                                     </div>
             </div>
                     </div>
-    
+
                     </div>
     </div>
 </div>
@@ -393,14 +393,14 @@
                                     <div class="header-rows  header-overlapped  "
                          style=" ">
 
-                        
-                        
-                        
+
+
+
                                                                                     <div class="header-row-wrapper">
                         <div class="uc-row-wrapper ">
                 <div
-                        class="uc-row                             header-row  
-                        
+                        class="uc-row                             header-row
+
                                                         header-row-fix
                                 "
 
@@ -411,7 +411,7 @@
                     <div class="row-container ">
                                                 <div class="row headerRow "
                                                           style="">
-                            
+
                                                                     <div
         class="column col-xs-5 "
         dataColumn-id="71"
@@ -425,7 +425,7 @@
                          first   last                         "
                                                 style=" padding-right:30px;padding-left:30px;;  "
                                         >
-                                        
+
                     </div>
                                                 </div>
 </div>
@@ -446,18 +446,18 @@
                             class="  module ModuleLogo "
                             dataModule-id="1"
                                                          style="display:block;max-width:150px;"
-                            
+
                                 >
-                           
+
                     <div class="fixed-ratio" style="padding-bottom: 22.5%">
                 <img data-logo-element class="fixed-ratio-content lazy"  data-src="https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/logo.png?v=1514485357" alt="Ucraft"/>
             </div>
-            
+
                         </div>
                                         <div
                             class="  module ModuleNavigation "
                             dataModule-id="125"
-                                                        
+
                                 >
                             <input type="hidden" class="standard-navigation">
 <style>
@@ -469,16 +469,16 @@
         background: rgb(0, 0, 0);
     }
 
-    
-        
+
+
             #navigation-125 .navigation > li.has-childes.page > ul a{
         padding: 0 15px;
     }
             #navigation-125     > div > ul li:hover > ul {
         display: block;
     }
-    
-    
+
+
     	#navigation-125 .page a {
         color: rgb(255, 255, 255);
         font-size: 14px;
@@ -533,14 +533,14 @@
             #navigation-125 li.page > ul.page-children > li.page > a {
                         color: rgb(255, 255, 255);
                                font-size: 12px;
-    
+
 
 
 
     }
 
-    
-    
+
+
         #navigation-125 li.page ul.page-children .page {
         padding-top: 8px;
         padding-bottom: 8px;
@@ -563,7 +563,7 @@
         text-align: center;
     }
 
-        
+
      </style>
 
                         </div>
@@ -573,8 +573,8 @@
                                                                                     </div>
                     </div>
 
-                    
-                    
+
+
 
                     <div class="margin-container" data-type="row"
                          >
@@ -583,14 +583,14 @@
                                     </div>
             </div>
                     </div>
-    
+
                                                                         </div>
                                                     <div class="main-rows">
                                                                                                                                                                                                                                          <div class="uc-row-wrapper ">
                 <div
-                        class="uc-row    first                           
+                        class="uc-row    first
                                                         uc-animation staticParallax
-                        
+
                                                         "
 
                         data-id="125"
@@ -600,7 +600,7 @@
                     <div class="row-container  container ">
                                                 <div class="row mainRow "
                                                           style="">
-                            
+
                                                                     <div
         class="column col-sm-12 "
         dataColumn-id="315"
@@ -616,7 +616,7 @@
                                         <div
                             class="  module ModuleIcon "
                             dataModule-id="931"
-                                                        
+
                                 >
                             <div class="icon" style="width:100px;height:100px; color:rgb(246, 246, 246); fill:rgb(246, 246, 246);">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><g><path d="M30.1,27c0.2,0.6,0.8,0.9,1.4,0.9c0.2,0,0.4,0,0.6-0.1c0.8-0.3,1.1-1.2,0.8-2L25.7,9.7c-0.3-0.8-1.2-1.1-2-0.8   c-0.8,0.3-1.1,1.2-0.8,2L30.1,27z"/><path d="M18.5,32.5c0.4,0,0.9-0.2,1.2-0.6c0.5-0.6,0.4-1.6-0.2-2.1l-9.4-7.5C9.5,21.9,8.5,22,8,22.6c-0.5,0.6-0.4,1.6,0.2,2.1   l9.4,7.5C17.9,32.4,18.2,32.5,18.5,32.5z"/><path d="M66.2,27.6c0.2,0.1,0.4,0.1,0.6,0.1c0.6,0,1.1-0.3,1.4-0.9l5.6-12.2c0.3-0.8,0-1.6-0.7-2c-0.8-0.3-1.6,0-2,0.7l-5.6,12.2   C65.1,26.3,65.4,27.2,66.2,27.6z"/><path d="M87.5,21.2c-0.6-0.5-1.6-0.5-2.1,0.2L77.9,30c-0.5,0.6-0.5,1.6,0.2,2.1c0.3,0.2,0.6,0.4,1,0.4c0.4,0,0.8-0.2,1.1-0.5   l7.5-8.7C88.2,22.7,88.2,21.7,87.5,21.2z"/><path d="M48.9,25.8C49,25.8,49,25.8,48.9,25.8c0.9,0,1.5-0.6,1.5-1.4L50.8,14c0-0.8-0.6-1.5-1.4-1.5c-0.8,0-1.5,0.6-1.5,1.4   l-0.3,10.3C47.5,25.1,48.1,25.8,48.9,25.8z"/><path d="M86.7,60.4c-0.1-0.4-0.3-0.7-0.6-0.9c-0.6-1-1.8-2.4-3.8-3.7c0.3-0.4,0.6-0.7,0.7-1.1c0,0,0-0.1,0-0.1   c0.1-0.3,2-8.4-3.9-14.4c-4.3-4.3-17.4-7.6-30-7.6c-6.8,0-16.5,1-24.1,5.6c-0.9,0.5-10.3,6.1-8.9,18.1c0.1,0.5,0.2,0.9,0.5,1.3   c-2.9,2.1-5.8,4.7-5.5,6.7c0.1,0.4,0.4,1.5,1.8,2c0.6,0.2,1.2,0.3,1.9,0.3c1.5,0,2.7-0.5,3.6-0.9c0,0,0,0,0,0c0,0.1,0,0.1,0,0.2   c0.1,0.6,0.1,1.3,0.3,2.1c-0.1,0.1-0.1,0.3-0.2,0.4c-1.3,0.6-2.9,1.7-3,3.3c0,0.1,0,0.3-0.1,0.4c-0.9,6.3,1.2,10.5,6.3,12.3   c4.7,1.7,13.1,3.8,25.1,3.8c6,0,12.9-0.5,20.7-1.9c15.2-2.7,16.4-5.4,15.9-13.1c0-0.5-0.1-1-0.1-1.6c0-1-0.5-1.8-1.2-2.3   c-0.5-0.4-1.1-0.6-1.7-0.7c1.1-0.1,2.3-0.3,3.4-0.6c0.5-0.1,0.9-0.5,1.1-1l1.8-5.5c0.1-0.3,0.1-0.6,0-1   C86.8,60.5,86.7,60.4,86.7,60.4z M22.8,81.6c-4.7-1.7-4.9-5.5-4.4-9c0-0.2,0.1-0.4,0.1-0.5c0-0.1,0.2-0.2,0.3-0.4   c0.4,0.3,1.4,0.7,2.7,1.2c0.2,0.1,0.4,0.1,0.6,0.2c3.1,1,7.9,2.2,13.8,3c0.9,1.4,2,2.5,3.4,2.5c0.5,0,0.9-0.1,1.4-0.3   c0.7-0.3,1.2-0.9,1.5-1.5c10.9,0.8,24.2-0.1,37.2-5.4c0.5,0.1,0.8,0.2,0.9,0.3c0,0.6,0.1,1.1,0.1,1.6c0.4,5.9,0.5,7.5-13.4,10   C44.3,87.4,29.6,84,22.8,81.6z M26.6,40.7c7-4.3,16.1-5.2,22.5-5.2c12.7,0,24.6,3.5,27.9,6.7c4.5,4.5,3.3,10.7,3.2,11.4   c-0.1,0.2-0.3,0.4-0.6,0.6c-0.4,0.3-1.1,0.6-1.9,0.9c-0.6,0.2-1.3,0.5-2.1,0.7c-1.2,0.3-2.5,0.7-4,1c-0.8,0.2-1.7,0.3-2.6,0.5   c-0.6,0.1-1.2,0.2-1.8,0.3c-0.8,0.1-1.6,0.2-2.4,0.4c-0.7,0.1-1.4,0.2-2.2,0.3c-0.7,0.1-1.3,0.2-2,0.2c-0.7,0.1-1.4,0.2-2.2,0.2   c-1,0.1-1.9,0.2-3,0.3c-4.3,0.3-9,0.5-13.9,0.5c0,0,0,0,0,0c-10,0-15.8-0.9-19-1.8c-0.9-0.3-1.7-0.6-2.2-0.8   c-0.8-0.4-1.2-0.8-1.2-1.1c0,0,0,0,0,0C17.9,45.4,26.1,40.9,26.6,40.7C26.5,40.7,26.6,40.7,26.6,40.7z M33.8,69.2   c-0.5,0-0.8,0-0.8,0l-1.5-0.8c1.1-0.7,1.8-1,2.1-1.2c0,0.1,0,0.3,0,0.5C33.7,68,33.7,68.6,33.8,69.2z M69.9,68c-0.5,0.7-1,1.1-2,1   c-1.5-0.2-1.5,0-2.2-0.7c-0.4-0.4-1.1-1.1-1.9-1.4c0-0.1,0.1-0.3,0.1-0.4C65.7,67,67.7,67.6,69.9,68z M52.2,69.8   c0.1-0.3,0.2-0.6,0.3-0.9c0.1-0.7,1.6-0.8,1.9-0.8c1.4,0,3,0.5,4.1,1.3c0.1,0.1,0.2,0.1,0.3,0.2c-0.1,0.1-0.2,0.2-0.3,0.2   c-0.5,0.4-1,0.7-1.5,1.1c-1.5,0.9-3.6,1.5-3.6,1.5s-3,1-4.5-0.5C50.4,71.9,51.6,71.1,52.2,69.8z M80.7,59.7   c-2.8,0.2-5.3,0.1-7.4-0.2c1-0.2,1.9-0.5,2.8-0.7c1.3-0.4,2.5-0.8,3.4-1.3c1.2,0.6,2.2,1.3,2.8,2C81.8,59.6,81.3,59.7,80.7,59.7z    M19,59.6c1.4,0.8,3.4,1.4,5.9,1.9l-1.8,3c-0.4,0.7-0.2,1.6,0.5,2.1c0.2,0.1,0.5,0.2,0.8,0.2c0.5,0,1-0.3,1.3-0.7l2.4-4   c3.4,0.4,7.6,0.6,12.4,0.7l0.4,2.3c0.1,0.7,0.8,1.2,1.5,1.2c0.1,0,0.2,0,0.3,0c0.8-0.2,1.3-0.9,1.2-1.8l-0.3-1.8   c3.6-0.1,8-0.2,12.5-0.6c0.8-0.1,1.5-0.1,2.3-0.2c0.4,0,0.7-0.1,1.1-0.1c0.5,0.6,0.9,1.3,1.2,1.9c0.3,0.6,0.4,1.3,0.4,1.8   c0,0.2,0,0.4,0,0.6c-0.1,0.8-0.5,1.2-0.5,1.2c0,0-0.1,0-0.1-0.1c-1.6-1.2-3.8-1.9-5.9-1.9c-2.6,0-4.4,1.2-4.8,3.2   c0,0.2-0.1,0.6-0.9,0.6c-0.8,0-2.2-0.5-3.3-1.6c-0.5-0.5-1.1-0.8-1.7-0.8c-1.2,0-1.8,0.8-2.2,2c-0.1,0.3-0.2,0.6-0.3,1   c-0.1,0.5-0.2,1-0.3,1.5c-0.2,1.5-0.7,4.1-1.5,4.6c-0.8-0.3-2.1-3.5-2.5-6.2c0-0.1,0-0.3-0.1-0.4c-0.1-0.5-0.1-0.9-0.1-1.4   c0-3.2-1.9-3.6-2.7-3.6c-1,0-2.5,0.4-6,3.1c-0.6,0.4-1.2,0.9-1.9,1.5c-0.2,0.2-0.5,0.4-0.7,0.5c-1.2,0.9-1.9,1-2.2,1   c-0.4,0-0.7-0.4-1-1c0,0,0,0,0,0c-0.1-0.3-0.2-0.6-0.3-0.9c-0.1-0.5-0.2-1-0.3-1.5c-0.1-0.5-0.1-0.9-0.1-1.2c0-0.5-0.1-0.9-0.1-1.2   c-0.2-1.5-1.3-2-2.1-2c-0.6,0-1.2,0.2-1.9,0.5c-0.9,0.3-1.9,0.8-2.9,0.6C15.1,62.6,17,61,19,59.6z M82.4,65.3   c-0.9,0.2-1.8,0.3-2.6,0.4c-2.4,0.2-4.8,0.1-7-0.2c-3.5-0.5-6.6-1.4-9.1-2.3c-0.2-0.6-0.4-1.2-0.8-1.8c1.3-0.2,2.6-0.3,3.9-0.5   c2.6,1.1,6.2,2.1,11,2.1c1.7,0,3.6-0.1,5.6-0.4L82.4,65.3z"/></g></svg>
@@ -631,7 +631,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="932"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h2 style="color: #f6f6f6;"><strong><span style="font-family: Oswald;" data-font-family="Oswald">BURGERS</span></strong></h2>
@@ -644,7 +644,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="933"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p data-mce-style="color: rgb(246, 246, 246);" style="color: rgb(246, 246, 246);"><span data-font-size="h5" data-mce-style="color: rgb(246, 246, 246);" style="color: rgb(246, 246, 246);">Choose what you want to eat today</span></p>
@@ -655,8 +655,8 @@
                                                                                     </div>
                     </div>
 
-                    
-                    
+
+
 
                     <div class="margin-container" data-type="row"
                           style="bottom:-0vh;" >
@@ -666,18 +666,18 @@
                              data-bg="url('https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/r125-background-3.jpg')"
                              data-webp="0"
                              style="
-                             
+
                                                                                                opacity: 1;
                                                                                                background-position: 50.407% 100%;
                                                                   ">
                         </div>
                                     </div>
             </div>
-            
+
                                                                                                                                                                                                                                  <div class="uc-row-wrapper ">
                 <div
-                        class="uc-row                             
-                        
+                        class="uc-row
+
                                                         "
 
                         data-id="127"
@@ -687,7 +687,7 @@
                     <div class="row-container  container ">
                                                 <div class="row mainRow "
                                                           style="">
-                            
+
                                                                     <div
         class="column col-sm-3 "
         dataColumn-id="317"
@@ -705,7 +705,7 @@
                             class="  module ModuleImage "
                             dataModule-id="935"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-935 "
                  data-loading-animation=""
@@ -720,8 +720,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -734,7 +734,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="936"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family: Oswald;" data-font-family="Oswald">Classic</span></h4>
@@ -748,7 +748,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="937"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p>&nbsp;beef patty, tomato, lettuce, pickles, onion, cocktail sauce</p>
@@ -761,7 +761,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="938"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">19</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">15</span></span></h5>
@@ -771,7 +771,7 @@
                         class="module-container  align-center ModuleParagraph
                           last                         "
                                         >
-                                        
+
                     </div>
                                                 </div>
 </div>
@@ -792,7 +792,7 @@
                             class="  module ModuleImage "
                             dataModule-id="941"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-941 "
                  data-loading-animation=""
@@ -807,8 +807,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -821,7 +821,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="942"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family: Oswald;" data-font-family="Oswald">Classic Cheese</span></h4>
@@ -835,7 +835,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="943"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p>beef patty, cheddar cheese, tomato, lettuce, pickles, onion, cocktail sauce</p>
@@ -848,7 +848,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="944"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">20</span>&nbsp;<span>Mini&nbsp;</span>-&nbsp;$<span style="color:#bb272a">16</span></span></h5>
@@ -858,7 +858,7 @@
                         class="module-container  align-center ModuleParagraph
                           last                         "
                                         >
-                                       
+
                     </div>
                                                 </div>
 </div>
@@ -879,7 +879,7 @@
                             class="  module ModuleImage "
                             dataModule-id="947"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-947 "
                  data-loading-animation=""
@@ -894,8 +894,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -908,7 +908,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="948"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family: Oswald;" data-font-family="Oswald">Classic Double</span></h4>
@@ -922,7 +922,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="949"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p>&nbsp;double beef, tomato, lettuce, pickles, onion, cocktail sauce</p>
@@ -935,7 +935,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="950"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">26</span>&nbsp;<span>Mini&nbsp;</span>-&nbsp;$<span style="color:#bb272a">19</span></span></h5>
@@ -945,7 +945,7 @@
                         class="module-container  align-center ModuleParagraph
                           last                         "
                                         >
-                                        
+
                     </div>
                                                 </div>
 </div>
@@ -966,7 +966,7 @@
                             class="  module ModuleImage "
                             dataModule-id="953"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-953 "
                  data-loading-animation=""
@@ -981,8 +981,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -995,7 +995,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="954"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family: Oswald;" data-font-family="Oswald">Classic Double Cheese</span></h4>
@@ -1009,7 +1009,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="955"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p>&nbsp;double beef, double cheese, lettuce, pickles, tomato, onion, cocktail sauce</p>
@@ -1022,7 +1022,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="956"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">28</span>&nbsp;<span>Mini&nbsp;</span>-&nbsp;$<span style="color:#bb272a">20</span></span></h5>
@@ -1032,15 +1032,15 @@
                         class="module-container  align-center ModuleParagraph
                           last                         "
                                         >
-                                       
+
                     </div>
                                                 </div>
 </div>
                                                                                     </div>
                     </div>
 
-                    
-                    
+
+
 
                     <div class="margin-container" data-type="row"
                           style="bottom:-0vh;" >
@@ -1048,11 +1048,11 @@
                     </div>
                                     </div>
             </div>
-            
+
                                                                                                                                                                                                                                  <div class="uc-row-wrapper ">
                 <div
-                        class="uc-row                             
-                        
+                        class="uc-row
+
                                                         "
 
                         data-id="128"
@@ -1062,7 +1062,7 @@
                     <div class="row-container  container ">
                                                 <div class="row mainRow "
                                                           style="">
-                            
+
                                                                     <div
         class="column col-sm-3 "
         dataColumn-id="321"
@@ -1080,7 +1080,7 @@
                             class="  module ModuleImage "
                             dataModule-id="959"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-959 "
                  data-loading-animation=""
@@ -1095,8 +1095,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -1108,7 +1108,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="960"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family: Oswald;" data-font-family="Oswald">Italian Style</span></h4>
@@ -1122,7 +1122,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="961"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p>&nbsp;beef patty, fresh mozzarella, onion, italian salami, tomato</p>
@@ -1135,7 +1135,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="962"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">24</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">19</span></span></h5>
@@ -1145,7 +1145,7 @@
                         class="module-container  align-center ModuleParagraph
                           last                         "
                                         >
-                                        
+
                     </div>
                                                 </div>
 </div>
@@ -1166,7 +1166,7 @@
                             class="  module ModuleImage "
                             dataModule-id="965"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-965 "
                  data-loading-animation=""
@@ -1181,8 +1181,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -1194,7 +1194,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="966"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family: Oswald;" data-font-family="Oswald">Mozzarella Soft</span></h4>
@@ -1208,7 +1208,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="967"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p>&nbsp;beef patty, fresh mozzarella, tomato, balsamic</p>
@@ -1221,7 +1221,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="968"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">22</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">17</span></span></h5>
@@ -1231,7 +1231,7 @@
                         class="module-container  align-center ModuleParagraph
                           last                         "
                                         >
-                                        
+
                     </div>
                                                 </div>
 </div>
@@ -1252,7 +1252,7 @@
                             class="  module ModuleImage "
                             dataModule-id="971"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-971 "
                  data-loading-animation=""
@@ -1267,8 +1267,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -1280,7 +1280,7 @@
                                     <div
                         class="  module ModuleTitle "
                         dataModule-id="972"
-                                                    
+
                             >
                         <div class="uc-content">
 <h4 style="text-align: justify;"><span style="font-family: Oswald;" data-font-family="Oswald">Blue Cheese</span></h4>
@@ -1294,7 +1294,7 @@
                                     <div
                         class="  module ModuleParagraph "
                         dataModule-id="973"
-                                                    
+
                             >
                         <div class="uc-content ">
 <p>&nbsp;beef patty, blue cheese, french sauce, rucola</p>
@@ -1307,7 +1307,7 @@
                                     <div
                         class="  module ModuleParagraph "
                         dataModule-id="974"
-                                                    
+
                             >
                         <div class="uc-content ">
 <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">21</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">16</span></span></h5>
@@ -1317,7 +1317,7 @@
                     class="module-container  align-center ModuleParagraph
                       last                         "
                                     >
-                                    
+
                 </div>
                                             </div>
 </div>
@@ -1338,7 +1338,7 @@
                         class="  module ModuleImage "
                         dataModule-id="977"
                                                      style="display:block;max-width:120px;"
-                        
+
                             >
                         <div class="animated animated-977 "
              data-loading-animation=""
@@ -1353,8 +1353,8 @@
                                                                                                                                                                                                                         </div>
             </div>
         </div>
-    
-    
+
+
 
 
                     </div>
@@ -1366,7 +1366,7 @@
                                     <div
                         class="  module ModuleTitle "
                         dataModule-id="978"
-                                                    
+
                             >
                         <div class="uc-content">
 <h4><span style="font-family: Oswald;" data-font-family="Oswald">Bacon &amp; Cheddar Cheese</span></h4>
@@ -1380,7 +1380,7 @@
                                     <div
                         class="  module ModuleParagraph "
                         dataModule-id="979"
-                                                    
+
                             >
                         <div class="uc-content ">
 <p>&nbsp;beef patty, bacon, cheddar cheese, tomato, lettuce, onions</p>
@@ -1393,7 +1393,7 @@
                                     <div
                         class="  module ModuleParagraph "
                         dataModule-id="980"
-                                                    
+
                             >
                         <div class="uc-content ">
 <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">22</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">16</span></span></h5>
@@ -1403,15 +1403,15 @@
                     class="module-container  align-center ModuleParagraph
                       last                         "
                                     >
-                                    
+
                 </div>
                                             </div>
 </div>
                                                                                 </div>
                 </div>
 
-                
-                
+
+
 
                 <div class="margin-container" data-type="row"
                       style="bottom:-0vh;" >
@@ -1419,11 +1419,11 @@
                 </div>
                                 </div>
         </div>
-        
+
                                                                                                                                                                                                                              <div class="uc-row-wrapper ">
             <div
-                    class="uc-row                             
-                    
+                    class="uc-row
+
                                                     "
 
                     data-id="129"
@@ -1433,7 +1433,7 @@
                 <div class="row-container  container ">
                                             <div class="row mainRow "
                                                       style="">
-                        
+
                                                                 <div
     class="column col-sm-3 "
     dataColumn-id="325"
@@ -1451,7 +1451,7 @@
                         class="  module ModuleImage "
                         dataModule-id="983"
                                                      style="display:block;max-width:120px;"
-                        
+
                             >
                         <div class="animated animated-983 "
              data-loading-animation=""
@@ -1466,8 +1466,8 @@
                                                                                                                                                                                                                         </div>
             </div>
         </div>
-    
-    
+
+
 
 
                     </div>
@@ -1479,7 +1479,7 @@
                                     <div
                         class="  module ModuleTitle "
                         dataModule-id="984"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family: Oswald;" data-font-family="Oswald">Swiss Cheese</span></h4>
@@ -1493,7 +1493,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="985"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p>&nbsp;beef patty, swiss cheese, grilled mushrooms, onion, tomato, lettuce</p>
@@ -1506,7 +1506,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="986"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">21</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">17</span></span></h5>
@@ -1516,7 +1516,7 @@
                         class="module-container  align-center ModuleParagraph
                           last                         "
                                         >
-                                        
+
                     </div>
                                                 </div>
 </div>
@@ -1537,7 +1537,7 @@
                             class="  module ModuleImage "
                             dataModule-id="989"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-989 "
                  data-loading-animation=""
@@ -1552,8 +1552,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -1565,7 +1565,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="990"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family: Oswald;" data-font-family="Oswald">Grilled Chicken</span></h4>
@@ -1579,7 +1579,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="991"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p>grilled chicken breast, cheddar cheese, tomato, white oregano</p>
@@ -1592,7 +1592,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="992"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">17</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">14</span></span></h5>
@@ -1617,7 +1617,7 @@
                             class="  module ModuleImage "
                             dataModule-id="994"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-994 "
                  data-loading-animation=""
@@ -1632,8 +1632,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -1645,7 +1645,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="995"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family: Oswald;" data-font-family="Oswald">Pepper Cheese</span></h4>
@@ -1659,7 +1659,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="996"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p>&nbsp;beef patty, cheddar cheese, tomato, onion, pickles, black &amp; red pepper</p>
@@ -1672,7 +1672,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="997"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">21</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">17</span></span></h5>
@@ -1682,7 +1682,7 @@
                         class="module-container  align-center ModuleParagraph
                           last                         "
                                         >
-                                       
+
                     </div>
                                                 </div>
 </div>
@@ -1703,7 +1703,7 @@
                             class="  module ModuleImage "
                             dataModule-id="1000"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-1000 "
                  data-loading-animation=""
@@ -1718,8 +1718,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -1731,7 +1731,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="1001"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family: Oswald;" data-font-family="Oswald">Veggie</span></h4>
@@ -1745,7 +1745,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="1002"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p>&nbsp;fresh grilled vegetables, broccoli, tomato, lettuce, onion, fresh cucumber</p>
@@ -1758,7 +1758,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="1003"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">16</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">13</span></span></h5>
@@ -1769,8 +1769,8 @@
                                                                                     </div>
                     </div>
 
-                    
-                    
+
+
 
                     <div class="margin-container" data-type="row"
                           style="bottom:-0vh;" >
@@ -1778,11 +1778,11 @@
                     </div>
                                     </div>
             </div>
-            
+
                                                                                                                                                                                                                                  <div class="uc-row-wrapper ">
                 <div
-                        class="uc-row                             
-                        
+                        class="uc-row
+
                                                         "
 
                         data-id="130"
@@ -1792,7 +1792,7 @@
                     <div class="row-container  container ">
                                                 <div class="row mainRow "
                                                           style="">
-                            
+
                                                                     <div
         class="column col-sm-3 "
         dataColumn-id="329"
@@ -1810,7 +1810,7 @@
                             class="  module ModuleImage "
                             dataModule-id="1005"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-1005 "
                  data-loading-animation=""
@@ -1825,8 +1825,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -1838,7 +1838,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="1006"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family: Oswald;" data-font-family="Oswald">Mignon Steak</span></h4>
@@ -1852,7 +1852,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="1007"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p>&nbsp;mignon steak, build yours</p>
@@ -1865,7 +1865,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="1008"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span><span></span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">25</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">20</span></span></h5>
@@ -1890,7 +1890,7 @@
                             class="  module ModuleImage "
                             dataModule-id="1010"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-1010 "
                  data-loading-animation=""
@@ -1905,8 +1905,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -1918,7 +1918,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="1011"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family:oswald">BBQ Grilled Chicken</span></h4>
@@ -1932,7 +1932,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="1012"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p>&nbsp;grilled chicken breast, rucola and barbecue sauce</p>
@@ -1945,7 +1945,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="1013"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">18</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">15</span></span></h5>
@@ -1970,7 +1970,7 @@
                             class="  module ModuleImage "
                             dataModule-id="1015"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-1015 "
                  data-loading-animation=""
@@ -1985,8 +1985,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -1998,7 +1998,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="1016"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family: Oswald;" data-font-family="Oswald">Pepper Steak</span></h4>
@@ -2012,7 +2012,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="1017"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p>&nbsp;cognac and pepper sauce, grilled bell pepper, tomato, onion, cheddar cheese</p>
@@ -2025,7 +2025,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="1018"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">22&nbsp;</span><span>Mini&nbsp;</span>- $<span style="color:#bb272a">20</span></span></h5>
@@ -2050,7 +2050,7 @@
                             class="  module ModuleImage "
                             dataModule-id="1020"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-1020 "
                  data-loading-animation=""
@@ -2065,8 +2065,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -2078,7 +2078,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="1021"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family: Oswald;" data-font-family="Oswald">Tuscan Style</span></h4>
@@ -2092,7 +2092,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="1022"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <p>&nbsp;tomato, rucola, figs, prosciutto</p>
@@ -2106,7 +2106,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="1023"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">25</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">20</span></span></h5>
@@ -2116,15 +2116,15 @@
                         class="module-container  align-center ModuleParagraph
                           last                         "
                                         >
-                                       
+
                     </div>
                                                 </div>
 </div>
                                                                                     </div>
                     </div>
 
-                    
-                    
+
+
 
                     <div class="margin-container" data-type="row"
                          >
@@ -2132,11 +2132,11 @@
                     </div>
                                     </div>
             </div>
-            
+
                                                                                                                                                                                                                                                                                      <div class="uc-row-wrapper ">
                 <div
-                        class="uc-row    last                           
-                        
+                        class="uc-row    last
+
                                                         "
 
                         data-id="131"
@@ -2146,7 +2146,7 @@
                     <div class="row-container  container ">
                                                 <div class="row mainRow "
                                                           style="">
-                            
+
                                                                     <div
         class="column col-sm-12 "
         dataColumn-id="333"
@@ -2164,7 +2164,7 @@
                             class="  module ModuleImage "
                             dataModule-id="1026"
                                                          style="display:block;max-width:120px;"
-                            
+
                                 >
                             <div class="animated animated-1026 "
                  data-loading-animation=""
@@ -2179,8 +2179,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -2192,7 +2192,7 @@
                                         <div
                             class="  module ModuleTitle "
                             dataModule-id="1027"
-                                                        
+
                                 >
                             <div class="uc-content">
     <h4><span style="font-family: Oswald;" data-font-family="Oswald">French Cheese</span></h4>
@@ -2207,7 +2207,7 @@
                             class="  module ModuleParagraph "
                             dataModule-id="1028"
                                                          style="display:block;max-width:180px;"
-                            
+
                                 >
                             <div class="uc-content ">
     <h6>brie cheese, rucola, dried tomatoes, caramelised onion</h6>
@@ -2221,7 +2221,7 @@
                                         <div
                             class="  module ModuleParagraph "
                             dataModule-id="1029"
-                                                        
+
                                 >
                             <div class="uc-content ">
     <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">24</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">1</span><span style="color:#bb272a">9</span></span></h5>
@@ -2231,15 +2231,15 @@
                         class="module-container  align-center ModuleParagraph
                           last                         "
                                         >
-                                        
+
                     </div>
                                                 </div>
 </div>
                                                                                     </div>
                     </div>
 
-                    
-                    
+
+
 
                     <div class="margin-container" data-type="row"
                           style="bottom:-0vh;" >
@@ -2247,21 +2247,21 @@
                     </div>
                                     </div>
             </div>
-            
+
                                                                                                         </div>
                                                     <div class="push"></div>
                             </div>
                                         <div class="footer-rows "
                      style="">
 
-                    
-                    
-                    
-                                                                                                                                        
+
+
+
+
                                                                                                                                                                                                                 <div class="uc-row-wrapper ">
                 <div
-                        class="uc-row     last                          
-                        
+                        class="uc-row     last
+
                                                         "
 
                         data-id="43"
@@ -2271,7 +2271,7 @@
                     <div class="row-container  container ">
                                                 <div class="row footerRow "
                                                           style="">
-                            
+
                                                                     <div
         class="column col-sm-3 "
         dataColumn-id="91"
@@ -2289,7 +2289,7 @@
                             class="  module ModuleImage "
                             dataModule-id="144"
                                                          style="display:block;max-width:60px;"
-                            
+
                                 >
                             <div class="animated animated-144 "
                  data-loading-animation=""
@@ -2304,8 +2304,8 @@
                                                                                                                                                                                                                             </div>
                 </div>
             </div>
-        
-        
+
+
 
 
                         </div>
@@ -2667,7 +2667,7 @@
 
 </script>
 
-    
+
 
 
 <!-- Auth token -->
@@ -2693,7 +2693,7 @@
                 var hasFlights=false;
                 var hasPayByReceipt=false;
                 var translations={"validation.requiredField":"This field is required","validation.invalidEmail":"This is not a valid e-mail address","validation.characterRequired":"The minimum number of characters is","validation.characterAllowed":"The maximum number of characters is","validation.wordsRequired":"The minimum number of words is","validation.wordsAllowed":"The maximum number of words is","validation.invalidUrl":"This is not a valid URL","validation.passwordCompare":"Password and the Verification don`t match","validation.promoCodeCompare":"This is not a valid Coupon Code ","validation.invalidNumber":"This is not a valid number","validation.greaterThanNumber":"Value should be greater than","validation.greaterLowerThanNumber":"Value should be greater lower","validation.alias":"The alias may only contain letters, numbers, and dashes","validation.fileIsBig":"The file you are uploading is too big.","validation.invalidFileType":"Type of the file you are uploading is not a supported.","validation.invalidDate":"Invalid date","validation.invalidDateFormat":"The date doesn\u2019t match with the correct date format=> dd\/mm\/yyyy","validation.reCaptchaUnexpectedError":"The Invisible reCAPTCHA error.","validation.missingInputSecret":"The Invisible reCAPTCHA Secret Key is missing.","validation.invalidInputSecret":"The Invisible reCAPTCHA Secret Key is invalid.","validation.missingInputResponse":"The Invisible reCAPTCHA response parameter is missing.","validation.invalidInputResponse":"The Invisible reCAPTCHA response parameter is invalid.","validation.badRequest":"The Invisible reCAPTCHA request is invalid.","validation.enableSslMessage":"Submitting this form is not possible, as the SSL has been enabled on your domain, but not on your website yet. To successfully submit the form you need to enable SSL in your domain configuration.","validation.aliasReserved":"This alias cannot be used."};
-                
+
     var styleSheetUrls = [];
     var _token = 'Ds15LHyKFtw0l3i3BXsLGYo37fq5hstp7dAvuqEE';
     var editUrl = 'https://demo-burgerbar.ucraft.net';

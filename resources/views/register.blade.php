@@ -1,8 +1,8 @@
-@extends('layouts.master')
+@extends('layouts.app')
 <head>
-    
+
 <link rel="stylesheet" href="{{asset('register.css')}}">
-  
+
 </head>
 
 @section('content')
@@ -13,7 +13,7 @@
 <hr style="width:1000px">
 
 <div class="container">
-  
+
     <form action="/register" method="POST">
     <div class="row">
       <div class="col-25">
@@ -70,9 +70,9 @@
     <div class="row">
       <input type="submit" value="Register">
     </div>
-   
+
     </form>
-    
+
   </div>
-  
+
 @endsection
