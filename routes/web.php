@@ -18,3 +18,8 @@ Route::get('/', function () {
 });
 Route::get('/payment', 'BillingController@paymentMethod');
 Route::post('/','BillingController@savePayment');
+Route::get('/register/submit','customerscontroller@register');
+ Route::post('/register','customerscontroller@store');
+ Route::get('/menu', function () {
+    return view('menu');
+});
