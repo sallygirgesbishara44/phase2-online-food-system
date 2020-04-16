@@ -23,6 +23,16 @@ Route::get('/register/submit','customerscontroller@register');
  Route::get('/menu', function () {
     return view('menu');
 });
-Route::get('/contacts', function () {
-    return view('contacts');
+
+
+Route::get('/updates', function () {
+//    return 1234;
+    
+    return view('customerfolder/updates');
 });
+    // Route::get('/updates','updatescontroller@update'); 
+         
+    
+    //Route::get('/profile.show','profileController@show'); 
+
+    Route::resource('/profile', 'profileController') ;
