@@ -16,9 +16,9 @@ class customerscontroller extends Controller
                 'firstname'=>'required',
                 'lastname'=>'required',
                 'adress'=>'required',
-                'email'=>'required',
+                'email'=>'required|email',
                 'username'=>'required|unique:customers,user_name',
-                'password'=>'required',
+                'password'=>'required|min:3',
 
                 
             ]);
