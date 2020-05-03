@@ -13,12 +13,6 @@ class ProductsSeeder extends Seeder
      */
     public function run()
     {
-          $product = new Product([
-            'image' => 'https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/959-italian-style.png',
-            'title' => 'Italian style',
-            'description' => 'beef patty, fresh mozzarella, onion, italian salami, tomato.',
-            'price' => 40.00
-        ]);
 
         DB::table('products')->insert([
             'name' => 'Classic',
