@@ -1,4 +1,4 @@
-<<?php
+<?php
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
@@ -26,28 +26,28 @@ class ProductsSeeder extends Seeder
             'photo' => 'https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/935-classic-burger.png',
             'price' => 20.00
          ]);
-       
+
          DB::table('products')->insert([
              'name' => 'Classic Cheese',
              'description' => 'double beef, tomato, lettuce, pickles, onion, cocktail sauce.',
              'photo' => 'https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/941-classic-cheese.png',
              'price' => 30.00
          ]);
-  
+
          DB::table('products')->insert([
              'name' => 'Classic Double',
              'description' => 'double beef,tomato,lettuce,pickles,chedder cheese,grilled onion,cocktail sauce.',
              'photo' => 'https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/947-double-classic.png',
              'price' => 35.00
          ]);
-  
+
          DB::table('products')->insert([
              'name' => 'Classic Double Cheese',
              'description' => 'double beef,double cheese,tomato,lettuce,pickles,chedder cheese,grilled onion,cocktail sauce.',
              'photo' => 'https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/953-classic-double-cheese.png',
              'price' => 40.00
          ]);
-  
+
          DB::table('products')->insert([
              'name' => 'Italian style',
              'description' => 'beef patty, fresh mozzarella, onion, italian salami, tomato.',
@@ -94,7 +94,7 @@ class ProductsSeeder extends Seeder
              'name' => 'Veggier',
              'description' => 'fresh grilled vegetables, broccoli, tomato, lettuce, onion, fresh cucumber.',
              'photo' => 'https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1000-veggie.png',
-             'price' => 30.00 
+             'price' => 30.00
          ]);
          DB::table('products')->insert([
              'name' => 'Mignon Steak',
@@ -120,9 +120,6 @@ class ProductsSeeder extends Seeder
              'photo' => ' https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/1020-tuscan----style.png',
              'price' => 40.00
          ]);
-       
+
     }
 }
-
-
-
