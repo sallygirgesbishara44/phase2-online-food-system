@@ -29,3 +29,29 @@ Route::get('/contacts', function () {
 });
 
 
+
+
+Route::get('/updates', function () {
+//    return 1234;
+    
+    return view('customerfolder/updates');
+});
+    // Route::get('/updates','updatescontroller@update'); 
+         
+    
+    //Route::get('/profile.show','profileController@show'); 
+
+    Route::resource('/profile', 'profileController') ;
+
+   //make order
+   // http://localhost/shopping-cart/public/
+   
+    Route::get('/', 'ProductsController@index');
+ 
+    Route::get('order', 'ProductsController@order');
+     
+    Route::get('add-to-order/{id}', 'ProductsController@addToOrder');
+    
+    Route::patch('update-order', 'ProductsController@update');
+     
+    Route::delete('remove-from-order', 'ProductsController@remove');
