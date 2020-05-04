@@ -44,14 +44,14 @@ Route::get('/updates', function () {
     Route::resource('/profile', 'profileController') ;
 
    //make order
-   // http://localhost/shopping-cart/public/
+   // http://localhost:8000
    
-    Route::get('/', 'ProductsController@index');
- 
-    Route::get('order', 'ProductsController@order');
-     
-    Route::get('add-to-order/{id}', 'ProductsController@addToOrder');
-    
-    Route::patch('update-order', 'ProductsController@update');
-     
-    Route::delete('remove-from-order', 'ProductsController@remove');
+   Route::get('/', 'ProductsController@index');
+
+   Route::get('order', 'ProductsController@order');
+   
+   Route::get('add-to-order/{id}', 'ProductsController@addToOrder');
+   
+   Route::patch('update-order', 'ProductsController@update');
+   
+   Route::delete('remove-from-order', 'ProductsController@remove');

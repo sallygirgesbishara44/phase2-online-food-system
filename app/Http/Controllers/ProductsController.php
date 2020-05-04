@@ -18,7 +18,6 @@ class ProductsController extends Controller
     {
         return view('order');
     }
-
     public function addToOrder($id)
     {
         $product = Product::find($id);
@@ -35,17 +34,21 @@ class ProductsController extends Controller
         if(!$order) {
 
             $order = [
-                    $id => [
-                        "name" => $product->name,
-                        "quantity" => 1,
-                        "price" => $product->price,
-                        "photo" => $product->photo
-                    ]
+                $id => [
+                    "name" => $product->name,
+                    "quantity" => 1,
+                    "price" => $product->price,
+                    "photo" => $product->photo
+                ]
             ];
 
             session()->put('order', $order);
 
-            return redirect()->back()->with('success', 'Product added to order successfully!');
+            $htmlOrder = view('_header_order')->render();
+
+            return response()->json(['msg' => 'Product added to order successfully!', 'data' => $htmlOrder]);
+
+            //return redirect()->back()->with('success', 'Product added to order successfully!');
         }
 
         // if order not empty then check if this product exist then increment quantity
@@ -55,7 +58,11 @@ class ProductsController extends Controller
 
             session()->put('order', $order);
 
-            return redirect()->back()->with('success', 'Product added to order successfully!');
+            $htmlOrder = view('_header_order')->render();
+
+            return response()->json(['msg' => 'Product added to order successfully!', 'data' => $htmlOrder]);
+
+            //return redirect()->back()->with('success', 'Product added to order successfully!');
 
         }
 
@@ -69,7 +76,11 @@ class ProductsController extends Controller
 
         session()->put('order', $order);
 
-        return redirect()->back()->with('success', 'Product added to order successfully!');
+        $htmlOrder = view('_header_order')->render();
+
+        return response()->json(['msg' => 'Product added to order successfully!', 'data' => $htmlOrder]);
+
+        //return redirect()->back()->with('success', 'Product added to order successfully!');
     }
 
     public function update(Request $request)
@@ -82,7 +93,15 @@ class ProductsController extends Controller
 
             session()->put('order', $order);
 
-            session()->flash('success', 'Order updated successfully');
+            $subTotal = $order[$request->id]['quantity'] * $order[$request->id]['price'];
+
+            $total = $this->getOrderTotal();
+
+            $htmlOrder = view('_header_order')->render();
+
+            return response()->json(['msg' => 'order updated successfully', 'data' => $htmlOrder, 'total' => $total, 'subTotal' => $subTotal]);
+
+            //session()->flash('success', 'order updated successfully');
         }
     }
 
@@ -99,7 +118,33 @@ class ProductsController extends Controller
                 session()->put('order', $order);
             }
 
-            session()->flash('success', 'Product removed successfully');
+            $total = $this->getOrderTotal();
+
+            $htmlOrder = view('_header_order')->render();
+
+            return response()->json(['msg' => 'Product removed successfully', 'data' => $htmlOrder, 'total' => $total]);
+
+            //session()->flash('success', 'Product removed successfully');
         }
+    }
+
+
+    /**
+     * getOrderTotal
+     *
+     *
+     * @return float|int
+     */
+    private function getOrderTotal()
+    {
+        $total = 0;
+
+        $order = session()->get('order');
+
+        foreach($order as $id => $details) {
+            $total += $details['price'] * $details['quantity'];
+        }
+
+        return number_format($total, 2);
     }
 }
