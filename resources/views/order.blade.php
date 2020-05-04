@@ -1,16 +1,16 @@
 @extends('layout')
- 
+
 @section('title', 'Order')
- 
+
 @section('content')
-        
-         
+
+
       @if(session('success'))
       <div class="alert alert-success">
           {{ session('success') }}
       </div>
       @endif
- 
+
     <table id="order" class="table table-hover table-condensed">
         <thead>
         <tr>
@@ -22,14 +22,14 @@
         </tr>
         </thead>
         <tbody>
- 
+
         <?php $total = 0 ?>
- 
+
         @if(session('order'))
             @foreach(session('order') as $id => $details)
- 
+
                 <?php $total += $details['price'] * $details['quantity'] ?>
- 
+
                 <tr>
                     <td data-th="Product">
                         <div class="row">
@@ -51,7 +51,7 @@
                 </tr>
             @endforeach
         @endif
- 
+
         </tbody>
         <tfoot>
         <tr class="visible-xs">
@@ -64,18 +64,18 @@
         </tr>
         </tfoot>
     </table>
- 
+
 @endsection
 @section('scripts')
- 
- 
+
+
     <script type="text/javascript">
- 
+
         $(".update-order").click(function (e) {
            e.preventDefault();
- 
+
            var ele = $(this);
- 
+
             $.ajax({
                url: '{{ url('update-order') }}',
                method: "patch",
@@ -85,12 +85,12 @@
                }
             });
         });
- 
+
         $(".remove-from-order").click(function (e) {
             e.preventDefault();
- 
+
             var ele = $(this);
- 
+
             if(confirm("Are you sure")) {
                 $.ajax({
                     url: '{{ url('remove-from-order') }}',
@@ -102,7 +102,7 @@
                 });
             }
         });
- 
+
     </script>
 
 @endsection

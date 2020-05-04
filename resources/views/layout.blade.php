@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
- 
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- 
+
     <title>@yield('title')</title>
- 
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
- 
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
- 
+
 </head>
 <body>
- 
+
 <div class="container">
- 
+
     <div class="row">
         <div class="col-lg-12 col-sm-12 col-12 main-section">
             <h3>Making Order</h3>
@@ -31,17 +31,17 @@
                         <div class="col-lg-6 col-sm-6 col-6">
                             <i class="fa fa-shopping-order" aria-hidden="true"></i> <span class="badge badge-pill badge-danger">{{ count((array) session('order')) }}</span>
                         </div>
- 
+
                         <?php $total = 0 ?>
                         @foreach((array) session('order') as $id => $details)
                             <?php $total += $details['price'] * $details['quantity'] ?>
                         @endforeach
- 
+
                         <div class="col-lg-6 col-sm-6 col-6 total-section text-right">
                             <p>Total: <span class="text-info">$ {{ $total }}</span></p>
                         </div>
                     </div>
- 
+
                     @if(session('order'))
                         @foreach(session('order') as $id => $details)
                             <div class="row order-detail">
@@ -65,12 +65,12 @@
         </div>
     </div>
 </div>
- 
+
 <div class="container page">
     @yield('content')
 </div>
- 
+
 @yield('scripts')
- 
+
 </body>
 </html>
