@@ -60,7 +60,8 @@
         </tr>
         </tfoot>
     </table>
-
+          <a href="{{ url('payment') }}" class="btn btn-primary btn-block">Checkout</a>
+          
 @endsection
 
 @section('scripts')

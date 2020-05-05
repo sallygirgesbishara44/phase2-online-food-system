@@ -1,5 +1,5 @@
 <div class="col-lg-12 col-sm-12 col-12 main-section">
-    <h3> MAKING ORDER </h3>
+    <h3> Making Order </h3>
     <div class="dropdown">
         
         <button type="button" class="btn btn-info" data-toggle="dropdown">
