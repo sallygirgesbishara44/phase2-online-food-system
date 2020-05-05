@@ -60,7 +60,7 @@
         </tr>
         </tfoot>
     </table>
-          <a href="{{ url('payment') }}" class="btn btn-info btn-block">Checkout</a>
+          <a href="{{ url('payment') }}" class="btn btn-primary btn-block">Checkout</a>
           
 @endsection
 
