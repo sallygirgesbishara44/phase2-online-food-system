@@ -41,7 +41,7 @@ Route::get('/updates', function () {
     Route::resource('/profile', 'profileController') ;
 
    //make order
-   // http://localhost:8000
+   
 
    Route::get('/shopping', 'ProductsController@index');
 
