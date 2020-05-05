@@ -13,9 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 Route::get('/payment', 'BillingController@paymentMethod');
 Route::post('/','BillingController@savePayment');
 Route::get('/register/submit','customerscontroller@register');
