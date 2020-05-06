@@ -55,3 +55,12 @@ Route::get('/updates', function () {
     Route::patch('update-order', 'ProductsController@update');
      
     Route::delete('remove-from-order', 'ProductsController@remove');
+
+    Route::get('/login','customerscontroller@login');  
+    Route::post('/logs','customerscontroller@logs');
+    Route::get('/dashboard', function () {
+        
+            
+            return view('dashboard');
+        });
+  
