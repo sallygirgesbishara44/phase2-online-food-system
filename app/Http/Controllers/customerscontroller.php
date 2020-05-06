@@ -15,10 +15,10 @@ class customerscontroller extends Controller
         $request->validate([ 
                 'firstname'=>'required',
                 'lastname'=>'required',
-                'adress'=>'required',
-                'email'=>'required',
+                'adress'=>'required|min:4',
+                'email'=>'required|email',
                 'username'=>'required|unique:customers,user_name',
-                'password'=>'required',
+                'password'=>'required|min:5',
 
                 
             ]);

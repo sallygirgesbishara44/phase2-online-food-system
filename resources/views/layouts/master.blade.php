@@ -34,7 +34,7 @@
               <a class="nav-link" href="/menu">Menu <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="/contacts">Contact Us</a>
             </li>
 
           </ul>
