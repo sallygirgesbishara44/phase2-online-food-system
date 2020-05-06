@@ -41,7 +41,7 @@ Route::get('/updates', function () {
     Route::resource('/profile', 'profileController') ;
 
    //make order
-<<<<<<< HEAD
+
 
 
    Route::get('/shopping', 'ProductsController@index');
@@ -53,34 +53,32 @@ Route::get('/updates', function () {
    Route::patch('update-order', 'ProductsController@update');
 
    Route::delete('remove-from-order', 'ProductsController@remove');
-=======
-   
-    Route::get('/', 'ProductsController@index');
- 
+
+    Route::get('/shopping', 'ProductsController@index');
+
     Route::get('order', 'ProductsController@order');
-     
+
     Route::get('add-to-order/{id}', 'ProductsController@addToOrder');
-    
+
     Route::patch('update-order', 'ProductsController@update');
-     
+
     Route::delete('remove-from-order', 'ProductsController@remove');
 
-    Route::get('/login','customerscontroller@login');  
+    Route::get('/login','customerscontroller@login');
     Route::post('/logs','customerscontroller@logs');
     Route::get('/dashboard', function () {
-        
-            
+
+
             return view('dashboard');
         });
-  
+
 
         Route::get('/shopping', 'ProductsController@index');
 
         Route::get('order', 'ProductsController@order');
-     
+
         Route::get('add-to-order/{id}', 'ProductsController@addToOrder');
-     
+
         Route::patch('update-order', 'ProductsController@update');
-     
+
         Route::delete('remove-from-order', 'ProductsController@remove');
->>>>>>> experimental-branch
