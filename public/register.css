@@ -34,8 +34,8 @@
   }
   
   input[type=submit] {
-    background-color: rgb(8, 47, 66);
-    color: white;
+    background-color: rgb(182, 179, 36);
+    color: rgb(29, 22, 22);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;

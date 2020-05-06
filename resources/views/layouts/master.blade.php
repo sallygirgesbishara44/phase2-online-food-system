@@ -10,12 +10,28 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+<<<<<<< HEAD
     <title>BURGERBAR</title>
     <style>
         body{
 
             background-color: cadetblue
 
+=======
+   
+    <title>BURGERBAR</title>
+    <style>
+        body{
+            
+            background-image: url("https://www.cairowestmag.com/wp-content/uploads/2018/11/Burger-Factory3.jpeg");
+            -webkit-background-size: cover;
+            background-position: center center;
+            height: 100%;
+            background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+            backdrop-filter: blur(3px);
+>>>>>>> experimental-branch
         }
         </style>
   </head>

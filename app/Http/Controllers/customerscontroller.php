@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\facades\URL;
+use Illuminate\Support\facades\DB;
 use App\Customer;
+
 
 class customerscontroller extends Controller
 {
@@ -33,4 +36,33 @@ class customerscontroller extends Controller
        $customer->save();
        return redirect('/register/submit')->with('status','you are successfully registered !');
     }
+
+public function login (){
+    return view('login');
 }
+
+    public function logs(request $request){
+        
+     
+        $request->validate([ 
+            
+            'username'=>'required',
+            'password'=>'required|min:5',
+
+            
+        ]);
+        
+        $username =$request->input('username');
+        $password =$request->input('password');
+   $data = DB::select('select * from customers where user_name=? and password=?',[$username,$password]);
+  
+if (count($data)){
+    $request->session()->put('user',$data);
+    return view('dashboard',['tata'=>$username])->with('thedata',$request->session()->get('user'));
+   
+}
+else {
+    return redirect('/login')->with('status','please enter valid data ');
+}    }
+}
+
