@@ -11,7 +11,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <style type="text/css">
      body{
-            
+
             background-image: url("https://prod-wolt-venue-images-cdn.wolt.com/5bfbf1d9310229000c3d7f63/dd7822b4b7802ced3651044d13b51a36");
             -webkit-background-size: cover;
             background-position: center center;
@@ -19,7 +19,7 @@
             background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  backdrop-filter: blur(3px); 
+  backdrop-filter: blur(3px);
         }
 </style>
 </head>
@@ -48,9 +48,9 @@
           Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="/">Make Order</a>
-          <a class="dropdown-item" href="#">View Profile</a>
-          <a class="dropdown-item" href="#">Update Profile</a>
+          <a class="dropdown-item" href="/shopping">Make Order</a>
+          <a class="dropdown-item" href="/profile/{{$thedata}}">View Profile</a>
+          <a class="dropdown-item" href="/profile/{{$thedata}}/edit">Update Profile</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="/login">Log Out</a>
         </div>
@@ -72,4 +72,4 @@
       </div>
       @yield('content')
 </body>
-</html>                            
+</html>

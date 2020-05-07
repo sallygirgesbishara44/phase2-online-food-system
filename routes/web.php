@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'indexController@index');
 Route::get('/payment', 'BillingController@paymentMethod');
-Route::post('/','BillingController@savePayment');
+Route::post('/login','BillingController@savePayment');
 Route::get('/register/submit','customerscontroller@register');
 Route::post('/register','customerscontroller@store');
 Route::get('/menu', function () {
@@ -54,15 +54,6 @@ Route::get('/updates', function () {
 
    Route::delete('remove-from-order', 'ProductsController@remove');
 
-    Route::get('/shopping', 'ProductsController@index');
-
-    Route::get('order', 'ProductsController@order');
-
-    Route::get('add-to-order/{id}', 'ProductsController@addToOrder');
-
-    Route::patch('update-order', 'ProductsController@update');
-
-    Route::delete('remove-from-order', 'ProductsController@remove');
 
     Route::get('/login','customerscontroller@login');
     Route::post('/logs','customerscontroller@logs');
@@ -71,14 +62,3 @@ Route::get('/updates', function () {
 
             return view('dashboard');
         });
-
-
-        Route::get('/shopping', 'ProductsController@index');
-
-        Route::get('order', 'ProductsController@order');
-
-        Route::get('add-to-order/{id}', 'ProductsController@addToOrder');
-
-        Route::patch('update-order', 'ProductsController@update');
-
-        Route::delete('remove-from-order', 'ProductsController@remove');

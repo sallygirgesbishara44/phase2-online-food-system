@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Product;
+use App\Order;
 use Illuminate\Http\Request;
+use Auth;
 
 class ProductsController extends Controller
 {
@@ -146,5 +148,23 @@ class ProductsController extends Controller
         }
 
         return number_format($total, 2);
+    }
+    public function postChekout(Request $request)
+    {
+
+      if(! Session::has('order') ){
+        return redirect()->route('/shopping');
+      }
+      $data = DB::select('select id from customers where user_name=? and password=?',[$username,$password]);
+      $Sdata = $data[0]->id;
+      $order = new Order();
+      $order->user_id=$thedata;
+      $order->order=serialize('oldcart');
+      $order->price=$total;
+      $order->location=$request->input('address1');
+      $order->payment=$request->input('paymentMethod');
+
+      Auth::customers()->orders()->save($order);
+
     }
 }

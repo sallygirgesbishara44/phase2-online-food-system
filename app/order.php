@@ -4,7 +4,11 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class order extends Model
+class Order extends Model
 {
     //
+    public function customer()
+    {
+      return $this -> belongsTo('App\customer');
+    }
 }

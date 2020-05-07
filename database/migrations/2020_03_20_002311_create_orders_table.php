@@ -19,6 +19,8 @@ class CreateOrdersTable extends Migration
             $table->integer('price');
             $table->string('payment');
             $table->text('location');
+            $table->timestamps();
+
         });
     }
 

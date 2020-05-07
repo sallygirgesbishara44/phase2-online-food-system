@@ -1,50 +1,49 @@
 @extends('layouts.master')
 
 @section('content')
-  
+
     <div class="container">
   <div class="py-5 text-center">
     <h2><?php echo $title; ?></h2>
   </div>
-
   <div class="row">
     <div class="col-md-4 order-md-2 mb-4">
       <h4 class="d-flex justify-content-between align-items-center mb-3">
+        <?php $count = 0 ?>
+        @foreach((array) session('order') as $id => $details)
+          <?php ++$count ?>
+
+        @endforeach
+
         <span class="text-muted">Your Order</span>
-        <span class="badge badge-secondary badge-pill">3</span>
+        <span class="badge badge-secondary badge-pill">{{$count}}</span>
       </h4>
       <ul class="list-group mb-3">
+        <?php $total = 0 ?>
+
+            @foreach((array) session('order') as $id => $details)
+
+              <?php $total += $details['price'] * $details['quantity'] ?>
+
         <li class="list-group-item d-flex justify-content-between lh-condensed">
           <div>
-            <h6 class="my-0">Product name</h6>
-            <small class="text-muted">Brief description</small>
+            <h6 class="my-0">{{ $details['name'] }}</h6>
+            <small class="text-muted"> Quantity {{ $details['quantity'] }}</small>
           </div>
-          <span class="text-muted">$12</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between lh-condensed">
-          <div>
-            <h6 class="my-0">Second product</h6>
-            <small class="text-muted">Brief description</small>
-          </div>
-          <span class="text-muted">$8</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between lh-condensed">
-          <div>
-            <h6 class="my-0">Third item</h6>
-            <small class="text-muted">Brief description</small>
-          </div>
-          <span class="text-muted">$5</span>
+          <span class="text-muted">${{ $details['price'] }}</span>
+        @endforeach
         </li>
         <li class="list-group-item d-flex justify-content-between">
           <span>Total (USD)</span>
-          <strong>$20</strong>
+          <strong>${{ $total }}</strong>
         </li>
       </ul>
+      <?php session(['price' => $total]);?>
 
     </div>
     <div class="col-md-8 order-md-1">
       <h4 class="mb-3">Billing address</h4>
-      <form class="needs-validation" action="{{url('/')}}"  method="post">
+      <form class="needs-validation" action="{{url('login')}}"  method="post">
         @csrf
 
 
@@ -56,10 +55,6 @@
           </div>
         </div>
 
-        <div class="mb-3">
-          <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
-          <input type="text" class="form-control" id="address2" placeholder="Apartment or suite" name="address2">
-        </div>
 
 
         <h4 class="mb-3">Payment</h4>
@@ -82,7 +77,7 @@
   </div>
 
   <footer class="my-5 pt-5 text-muted text-center text-small">
-    <p class="mb-1">&copy; 2017-2019 Company Name</p>
+    <p class="mb-1">&copy; BurgerBar</p>
     <ul class="list-inline">
       <li class="list-inline-item"><a href="#">Privacy</a></li>
       <li class="list-inline-item"><a href="#">Terms</a></li>
