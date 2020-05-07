@@ -62,3 +62,6 @@ Route::get('/updates', function () {
 
             return view('dashboard');
         });
+
+
+    
