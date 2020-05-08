@@ -1,6 +1,6 @@
 
 
-        @extends('layouts.master')
+        @extends('layouts.nav')
         <head>
             
         <link rel="stylesheet" href="{{asset('register.css')}}">

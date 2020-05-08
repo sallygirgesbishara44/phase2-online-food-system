@@ -46,7 +46,8 @@ class profileController extends Controller
     public function show($id)
     {
         //
-        return view('profile.show', [ 'profile' => \App\Customer::findOrFail($id)]);
+        
+        return view('profile.show', [ 'profile' => \App\Customer::findOrFail($id)])->with('id',$id);
     }
 
     /**

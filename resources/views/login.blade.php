@@ -40,13 +40,15 @@
         </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        
+	  <li class="nav-item">
+          <a class="nav-link" href="/" style="font-size:18px">home</a>
+        </li>
         <li class="nav-item">
-          <a class="nav-link" href="/menu" style="font-size:20px">Menu</a>
+          <a class="nav-link" href="/menu" style="font-size:18px">Menu</a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="/contacts" style="font-size:20px">Contacts</a>
+          <a class="nav-link" href="/contacts" style="font-size:18px">Contacts</a>
         </li>
         
       </ul>

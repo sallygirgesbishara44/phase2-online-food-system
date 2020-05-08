@@ -764,7 +764,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">19</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">15</span></span></h5>
+    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">20.00</span>&nbsp;</span></h5>
 </div>                        </div>
                     </div>
                                                                                 <div
@@ -851,7 +851,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">20</span>&nbsp;<span>Mini&nbsp;</span>-&nbsp;$<span style="color:#bb272a">16</span></span></h5>
+    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">30.00</span>&nbsp;</span></h5>
 </div>                        </div>
                     </div>
                                                                                 <div
@@ -938,7 +938,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">26</span>&nbsp;<span>Mini&nbsp;</span>-&nbsp;$<span style="color:#bb272a">19</span></span></h5>
+    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">35.00</span>&nbsp;</span></h5>
 </div>                        </div>
                     </div>
                                                                                 <div
@@ -1025,7 +1025,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">28</span>&nbsp;<span>Mini&nbsp;</span>-&nbsp;$<span style="color:#bb272a">20</span></span></h5>
+    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">40.00</span>&nbsp;</span></h5>
 </div>                        </div>
                     </div>
                                                                                 <div
@@ -1138,7 +1138,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">24</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">19</span></span></h5>
+    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">43.50</span>&nbsp;</span></h5>
 </div>                        </div>
                     </div>
                                                                                 <div
@@ -1224,7 +1224,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">22</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">17</span></span></h5>
+    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">40.50</span>&nbsp;</span></h5>
 </div>                        </div>
                     </div>
                                                                                 <div
@@ -1310,7 +1310,7 @@
 
                             >
                         <div class="uc-content ">
-<h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">21</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">16</span></span></h5>
+<h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">45.00</span>&nbsp;</span></h5>
 </div>                        </div>
                 </div>
                                                                             <div
@@ -1396,7 +1396,7 @@
 
                             >
                         <div class="uc-content ">
-<h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">22</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">16</span></span></h5>
+<h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">50.00</span>&nbsp;</span></h5>
 </div>                        </div>
                 </div>
                                                                             <div
@@ -1509,8 +1509,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">21</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">17</span></span></h5>
-</div>                        </div>
+                            <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">50.00</span>&nbsp;</span></h5></div>                        </div>
                     </div>
                                                                                 <div
                         class="module-container  align-center ModuleParagraph
@@ -1595,8 +1594,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">17</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">14</span></span></h5>
-</div>                        </div>
+                            <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">20.00</span>&nbsp;</span></h5></div>                        </div>
                     </div>
                                                 </div>
 </div>
@@ -1675,8 +1673,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">21</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">17</span></span></h5>
-</div>                        </div>
+                            <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">40.00</span>&nbsp;</span></h5></div>                        </div>
                     </div>
                                                                                 <div
                         class="module-container  align-center ModuleParagraph
@@ -1761,8 +1758,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">16</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">13</span></span></h5>
-</div>                        </div>
+                            <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">30.00</span>&nbsp;</span></h5></div>                        </div>
                     </div>
                                                 </div>
 </div>
@@ -1868,8 +1864,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span><span></span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">25</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">20</span></span></h5>
-</div>                        </div>
+                            <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">20.00</span>&nbsp;</span></h5></div>                        </div>
                     </div>
                                                 </div>
 </div>
@@ -1948,8 +1943,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">18</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">15</span></span></h5>
-</div>                        </div>
+                            <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">30.00</span>&nbsp;</span></h5></div>                        </div>
                     </div>
                                                 </div>
 </div>
@@ -2028,8 +2022,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">22&nbsp;</span><span>Mini&nbsp;</span>- $<span style="color:#bb272a">20</span></span></h5>
-</div>                        </div>
+                            <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">35.00</span>&nbsp;</span></h5></div>                        </div>
                     </div>
                                                 </div>
 </div>
@@ -2109,8 +2102,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">25</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">20</span></span></h5>
-</div>                        </div>
+                            <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">40.00</span>&nbsp;</span></h5></div>                        </div>
                     </div>
                                                                                 <div
                         class="module-container  align-center ModuleParagraph
@@ -2224,8 +2216,7 @@
 
                                 >
                             <div class="uc-content ">
-    <h5><span style="font-family:oswald"><span>Big&nbsp;</span>-&nbsp;$<span style="color:#bb272a">24</span>&nbsp;<span>Mini&nbsp;</span>- $<span style="color:#bb272a">1</span><span style="color:#bb272a">9</span></span></h5>
-</div>                        </div>
+                            <h5><span style="font-family:oswald"><span>Big&nbsp;</span>- $<span style="color:#bb272a">20.00</span>&nbsp;</span></h5></div>                        </div>
                     </div>
                                                                                 <div
                         class="module-container  align-center ModuleParagraph

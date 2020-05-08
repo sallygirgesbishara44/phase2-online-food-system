@@ -55,8 +55,9 @@ public function login (){
         $username =$request->input('username');
         $password =$request->input('password');
    $data = DB::select('select id from customers where user_name=? and password=?',[$username,$password]);
-   $Sdata = $data[0]->id;
+   
 if (count($data)){
+    $Sdata = $data[0]->id;
     $request->session()->put('user',$Sdata);
     return view('dashboard',['tata'=>$username])->with('thedata',$request->session()->get('user'));
    

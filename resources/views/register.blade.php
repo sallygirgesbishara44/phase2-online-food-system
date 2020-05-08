@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.master')
 <head>
 
 <link rel="stylesheet" href="{{asset('register.css')}}">

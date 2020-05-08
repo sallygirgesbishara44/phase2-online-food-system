@@ -1,6 +1,6 @@
 
 
-        @extends('layouts.master')
+        @extends('layouts.nav')
 <head>
     
 <link rel="stylesheet" href="{{asset('register.css')}}">
@@ -70,6 +70,10 @@
 @csrf
 
     <br>
+    <br>
+    <div class="row">
+     <a href="/profile/{{$id}}/edit"> <button class="btn btn-primary" style="margin-left:660px;">edit</button></a>
+    </div>
     {{-- <div class="row">
       <input type="submit" value="updated">
     </div> --}}
