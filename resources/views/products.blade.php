@@ -15,7 +15,7 @@
                     <div class="thumbnail">
                         <img src="{{ $product->photo }}" width="500" height="300">
                         <div class="caption">
-                            <h5>{{ $product->name }}</h5>
+                            <h3>{{ $product->name }}</h3>
                             <p>{{ strtolower($product->description) }}</p>
                             <p><strong>Price: </strong> {{ $product->price }}$</p>
                             <p class="btn-holder"><a href="javascript:void(0);" data-id="{{ $product->id }}" class="btn btn-warning btn-block text-center add-to-order" role="button">Add to order</a>
