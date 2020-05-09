@@ -63,5 +63,6 @@ Route::get('/updates', function () {
             return view('dashboard');
         });
 
+Route::get('/feedback','FeedbackController@feedback');
 
-    
+Route::post('/feedback','FeedbackController@saveFeedback');

@@ -47,7 +47,7 @@
           <a class="nav-link" href="/contacts">Contacts</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">feedback</a>
+          <a class="nav-link" href="/feedback">feedback</a>
         </li>
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -61,7 +61,7 @@
           <a class="dropdown-item" href="/login">Log Out</a>
         </div>
       </li>
-        
+
         <li class="nav-item">
           <a class="nav-link" href="#">{{$tata}}</a>
         </li>
@@ -77,4 +77,3 @@
       @yield('content')
 </body>
 </html>
-

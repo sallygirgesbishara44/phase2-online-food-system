@@ -7,4 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class feedback extends Model
 {
     //
+    protected $table = 'feedback';
+    public $timestamps = true;
+
+
 }
