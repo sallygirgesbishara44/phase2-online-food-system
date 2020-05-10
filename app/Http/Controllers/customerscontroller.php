@@ -34,7 +34,7 @@ class customerscontroller extends Controller
        $customer->password = $request->password ;
        
        $customer->save();
-       return redirect('/reg')->with('status','you are successfully registered !');
+       return redirect('/register/submit')->with('status','you are successfully registered !');
     }
 
 public function login (){
