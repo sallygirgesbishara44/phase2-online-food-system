@@ -16,19 +16,19 @@
                     <form method="POST" id="signup-form" class="signup-form" action="/register">
                         <h2 class="form-title">Create account</h2>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="firstname" id="name" placeholder="First Name"/>
+                            <input type="text" class="form-input" name="firstname" id="fname" placeholder="First Name"/>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="lastname" id="name" placeholder="Last Name"/>
+                            <input type="text" class="form-input" name="lastname" id="lname" placeholder="Last Name"/>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="adress" id="name" placeholder="Adress"/>
+                            <input type="text" class="form-input" name="adress" id="adress" placeholder="Adress"/>
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-input" name="email" id="email" placeholder="Email"/>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="username" id="name" placeholder="UserName"/>
+                            <input type="text" class="form-input" name="username" id="username" placeholder="UserName"/>
                         </div>
                         
                         <div class="form-group">

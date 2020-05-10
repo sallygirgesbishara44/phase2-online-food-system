@@ -44,7 +44,7 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="#">feedback</a>
+          <a class="nav-link" href="/feedback">feedback</a>
         </li>
         
         <li class="nav-item">
