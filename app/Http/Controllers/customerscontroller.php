@@ -11,7 +11,7 @@ use App\Customer;
 class customerscontroller extends Controller
 {
     public function register(){
-        return view('register');
+        return view('reg');
     }
 
     public function store(Request $request){
@@ -34,7 +34,7 @@ class customerscontroller extends Controller
        $customer->password = $request->password ;
        
        $customer->save();
-       return redirect('/register/submit')->with('status','you are successfully registered !');
+       return redirect('/reg')->with('status','you are successfully registered !');
     }
 
 public function login (){

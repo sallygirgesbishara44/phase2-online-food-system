@@ -18,7 +18,7 @@
             background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
         }
 </style>
 </head>
