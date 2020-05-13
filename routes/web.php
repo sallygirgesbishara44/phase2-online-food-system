@@ -40,9 +40,7 @@ Route::get('/updates', function () {
 
     Route::resource('/profile', 'profileController') ;
 
-   //make order
-
-
+   //making order
 
    Route::get('/shopping', 'ProductsController@index');
 
