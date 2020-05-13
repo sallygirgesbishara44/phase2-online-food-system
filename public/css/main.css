@@ -29,11 +29,11 @@
 
 body, html {
 	height: 100%;
-	font-family: Ubuntu-Regular, sans-serif;
+	
 }
 
 /*---------------------------------------------*/
-a {
+.txt3 {
 	font-family: Ubuntu-Regular;
 	font-size: 14px;
 	line-height: 1.7;
@@ -45,11 +45,11 @@ a {
   -moz-transition: all 0.4s;
 }
 
-a:focus {
+.txt3:focus {
 	outline: none !important;
 }
 
-a:hover {
+.txt3:hover {
 	text-decoration: none;
   color: #252424;
 }
@@ -159,7 +159,7 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-
+font-family: Ubuntu-Regular, sans-serif;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -176,7 +176,7 @@ iframe {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,0.65);
+ 
 }
 
 .wrap-login100 {

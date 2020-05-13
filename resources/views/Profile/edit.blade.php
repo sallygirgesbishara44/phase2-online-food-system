@@ -1,87 +1,57 @@
+@extends('layouts.nav')
+<head>
+  
 
+    <!-- Main css -->
+    <link rel="stylesheet" href="{{ asset('css/maiin.css')}}">
+</head>
+@section('content')
 
-        @extends('layouts.nav')
-        <head>
-            
-        <link rel="stylesheet" href="{{asset('register.css')}}">
-          
-        </head>
-        
-        @section('content')
-        
-        <br>
-        <h1>Update Your Account</h1>
-        <br>
-        <hr style="width:1000px">
-        
-        <div class="container">
-            
-            {{-- <form method="post" action="{{action('updatescontroller@update')}}"> --}}
-                <form method="POST"
-                action="{{ route('profile.update', ['profile'=> $profile->id]) }}">
-                   @csrf
+    <div class="main">
+
+        <section class="signup">
+            <!-- <img src="images/signup-bg.jpg" alt=""> -->
+            <div class="contain">
+                <div class="signup-content">
+                    <form method="POST" id="signup-form" class="signup-form" action="{{ route('profile.update', ['profile'=> $profile->id]) }}">
+                    @csrf
                    @method('PUT')
 
-                <div class="row">
-              <div class="col-25">
-                <label for="fname">First Name</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="fname" name="firstname" placeholder="Your name.." value="{{ old( 'Name' , $profile->first_name) }}">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="lname">Last Name</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="lname" name="lastname" placeholder="Your last name.." value="{{ old( 'Name' , $profile->last_name) }}">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="address">Address</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="address" name="adress" placeholder="Your New address.." value="{{ old( 'Name' , $profile->address) }}">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="mail">E-mail</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="email" name="email" placeholder="Your email.." value="{{ old( 'Name' , $profile->e_mail) }}">
-              </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                  <label for="username">User Name</label>
+                    <h2 class="form-title">Update Profile</h2>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="firstname" id="fname" placeholder="First Name" value="{{ old( 'Name' , $profile->first_name) }}"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="lastname" id="lname" placeholder="Last Name" value="{{ old( 'Name' , $profile->last_name) }}"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="adress" id="address" placeholder="Adress" value="{{ old( 'Name' , $profile->address) }}"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" name="email" id="email" placeholder="Email" value="{{ old( 'Name' , $profile->e_mail) }}"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="username" id="username" placeholder="UserName" value="{{ old( 'Name' , $profile->user_name) }}"/>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="password" class="form-input" name="password" id="password" placeholder="Password" value="{{ old( 'Name' , $profile->password) }}"/>
+                            <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                        </div>
+                       
+                        <div class="form-group">
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="Supmit"/>
+                        </div>
+                    </form>
+                    
                 </div>
-                <div class="col-75">
-                  <input type="text" id="username" name="username" placeholder="Your username.." value="{{ old( 'Name' , $profile->user_name) }}">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-25">
-                  <label for="password">Password</label>
-                </div>
-                <div class="col-75">
-                  <input type="password" id="password" name="password" placeholder="Your password.." value="{{ old( 'Name' , $profile->password) }}">
-                </div>
-              </div>
-        
-        @csrf
-        
-            <br>
-            <div class="row">
-              <input type="submit" value="updated">
             </div>
-           
-            </form>
-            
-          </div>
-          
-        @endsection
-        
-        
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    @endsection
+  
