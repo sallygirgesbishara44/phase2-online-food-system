@@ -41,7 +41,7 @@
   }
   #showfeedback td, #showfeedback th {
   border: 1px #ddd;
-  padding: 10px;
+  padding: 15px;
 }
   #showfeedback tr:nth-child(even){background-color: white;}
   #showfeedback tr {background-color: #f2f2f2;}
@@ -53,6 +53,6 @@
   background-color: Peru;
   color: white;
   }
-  tr,td {text-align:left; padding-top: 10px; padding-bottom: 10px;}
+  tr,td {text-align:left; padding-top: 15px; padding-bottom: 15px;}
 </style>
 </html>
