@@ -66,3 +66,11 @@ Route::get('/updates', function () {
 Route::get('/feedback','FeedbackController@feedback');
 
 Route::post('/feedback','FeedbackController@saveFeedback');
+
+Route::get('/addKS','StaffController@addStaff');
+Route::post('/addKS/added','StaffController@store');
+
+Route::get('/addDB','StaffController@addDelevStaff');
+Route::post('/addDB/added','StaffController@store2');
+
+

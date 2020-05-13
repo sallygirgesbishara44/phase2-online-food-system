@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\facades\URL;
 use Illuminate\Support\facades\DB;
 use App\Customer;
+use App\DeliveryBoy;
+use App\KitchenStaff;
 
 
 class customerscontroller extends Controller
@@ -55,15 +57,34 @@ public function login (){
         $username =$request->input('username');
         $password =$request->input('password');
    $data = DB::select('select id from customers where user_name=? and password=?',[$username,$password]);
-   
+   $data2 = DB::select('select id from Kitchen_staff where user_name=? and password=?',[$username,$password]);
+   $data3 = DB::select('select id from Delivery_Boys where user_name=? and password=?',[$username,$password]);
 if (count($data)){
     $Sdata = $data[0]->id;
     $request->session()->put('user',$Sdata);
     return view('dashboard',['tata'=>$username])->with('thedata',$request->session()->get('user'));
    
 }
+elseif($username=="Admin"&&$password=="admin"){
+    $request->session()->put('admin',$username);
+    return view('admindash',['tata'=>$username])->with('thedata',$request->session()->get('admin'));
+}
+elseif (count($data2)){
+    $Sdata = $data2[0]->id;
+    $request->session()->put('KStaff',$Sdata);
+    return view('welcome',['tata'=>$username])->with('thedata',$request->session()->get('KStaff'));
+   
+}
+elseif (count($data3)){
+    $Sdata = $data3[0]->id;
+    $request->session()->put('DBStaff',$Sdata);
+    return view('welcome',['tata'=>$username])->with('thedata',$request->session()->get('DBStaff'));
+   
+}
 else {
     return redirect('/login')->with('status','please enter valid data ');
 }    }
+
+
 }
 
