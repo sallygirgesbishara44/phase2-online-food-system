@@ -65,6 +65,9 @@ Route::get('/feedback','FeedbackController@feedback');
 
 Route::post('/feedback','FeedbackController@saveFeedback');
 
+Route::get('/show','FeedbackController@showfeedback');
+
+
 Route::get('/addKS','StaffController@addStaff');
 Route::post('/addKS/added','StaffController@store');
 
