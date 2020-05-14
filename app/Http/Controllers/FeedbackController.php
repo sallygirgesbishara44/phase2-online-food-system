@@ -20,4 +20,12 @@ class FeedbackController extends Controller
       $title = 'Feedback';
       return view('feedback')->with('title', $title);
     }
+    
+    public function showFeedback()
+    {
+      $feedback = feedback::all()->toArray();
+      return view('showfeedback', compact('feedback'));
+
+       
+    }
 }

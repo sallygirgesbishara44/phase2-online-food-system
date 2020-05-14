@@ -52,7 +52,9 @@ Route::get('/updates', function () {
 
    Route::delete('remove-from-order', 'ProductsController@remove');
 
-
+   Route::get('/calories', function () {
+    return view('calories');
+});
     Route::get('/login','customerscontroller@login');
     Route::post('/logs','customerscontroller@logs');
     Route::get('/dashboard', function () {
@@ -64,6 +66,9 @@ Route::get('/updates', function () {
 Route::get('/feedback','FeedbackController@feedback');
 
 Route::post('/feedback','FeedbackController@saveFeedback');
+
+Route::get('/show','FeedbackController@showfeedback');
+
 
 Route::get('/addKS','StaffController@addStaff');
 Route::post('/addKS/added','StaffController@store');

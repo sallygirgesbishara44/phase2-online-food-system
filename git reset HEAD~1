@@ -1,0 +1,257 @@
+[33mcommit 129f1e5db3d37e5fdb9e5da97fc2d784685bda8f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Thu May 14 00:17:37 2020 +0200
+
+    update show feedback
+
+[33mcommit c24eb0b957007e7dd74eea4c3693cb65371d2dad[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Thu May 14 00:10:36 2020 +0200
+
+    show feedback
+
+[33mcommit b37f2ea9fa683edf136ead96a29b21791253472c[m
+Merge: 1417969 4b12cbd
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Wed May 13 15:38:37 2020 +0200
+
+    Merge branch 'master' of https://github.com/asmaaabdeen/first_upload
+
+[33mcommit 141796967fdc2d79672a62740189153b13720f17[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Wed May 13 15:38:28 2020 +0200
+
+    update
+
+[33mcommit 4b12cbde1fc0d03f2e8d7a5b473e3a9083d74adf[m
+Author: asmaaabdeen <asmaa.abdeen_2000@hotmail.com>
+Date:   Wed May 13 12:18:43 2020 +0200
+
+    added staff and admin login,admin add staff,admindash
+
+[33mcommit 75bc60df42737fff08637ef7bc02793f620376c5[m
+Merge: cba3d82 204bbd1
+Author: asmaaabdeen <asmaaabdeen@gmail.com>
+Date:   Sun May 10 06:00:08 2020 +0200
+
+    Merge branch 'master' of https://github.com/asmaaabdeen/first_upload
+
+[33mcommit cba3d827ac832061c79c072404d101c742a01218[m
+Author: asmaaabdeen <asmaaabdeen@gmail.com>
+Date:   Sun May 10 05:59:18 2020 +0200
+
+    updated login,feedback,update and show profile pages
+
+[33mcommit 204bbd16919491c7c2471b1da8c61caa2eb25355[m
+Author: Ahmad Abdelaty <58639988+AhmadAbdelaty169@users.noreply.github.com>
+Date:   Sun May 10 03:47:23 2020 +0200
+
+    testing
+
+[33mcommit c7c89547a3e9de2cd84708f8bed503d394a04102[m
+Author: asmaaabdeen <asmaaabdeen@gmail.com>
+Date:   Sun May 10 02:59:52 2020 +0200
+
+    update customercontroller
+
+[33mcommit 4ac0fe928f01df41bc5246b695cdc7ffc04aec78[m
+Merge: 8530a9f 8390152
+Author: asmaaabdeen <asmaaabdeen@gmail.com>
+Date:   Sun May 10 02:53:44 2020 +0200
+
+    Merge branch 'master' of https://github.com/asmaaabdeen/first_upload
+
+[33mcommit 8530a9fb80c3e28e759591ed225286a40101f744[m
+Author: asmaaabdeen <asmaaabdeen@gmail.com>
+Date:   Sun May 10 02:51:25 2020 +0200
+
+    updat register page
+
+[33mcommit 839015243a3759eeb4985ede02ffe8c542d33d92[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Sun May 10 01:36:33 2020 +0200
+
+    update products
+
+[33mcommit 24c249689234b3d61f5d87fc0ec1c3b014706d26[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Sun May 10 01:33:24 2020 +0200
+
+    update products
+
+[33mcommit 98636aa0f68ce6a8af49c7863ba0671385d5b5c2[m
+Author: Ahmad Abdelaty <58639988+AhmadAbdelaty169@users.noreply.github.com>
+Date:   Sat May 9 21:04:38 2020 +0200
+
+    feedback page and items
+
+[33mcommit fab2d55b42a6192ab552d0de09b585ac372c2c60[m
+Author: asmaaabdeen <asmaaabdeen@gmail.com>
+Date:   Fri May 8 05:16:24 2020 +0200
+
+    updated front end
+
+[33mcommit 698784ebde258f49e9eb5b084bc2efc177c9e94d[m[33m ([m[1;31morigin/Houssam's_Editing[m[33m)[m
+Merge: cb666e7 31bced6
+Author: Houssam Abd El Moniem <31729534+Houssam5@users.noreply.github.com>
+Date:   Thu May 7 11:38:41 2020 +0200
+
+    Merge branch 'master' into Houssam's_Editing
+
+[33mcommit cb666e73bf44c1501bbdc4665db4d30acf88fd1e[m
+Author: Houssam Abd El Moniem <31729534+Houssam5@users.noreply.github.com>
+Date:   Thu May 7 11:33:21 2020 +0200
+
+    Connecting the pages with each other and send the orders to DB
+
+[33mcommit 61efc46ff782a0807287c19fa02efa6ed156f689[m
+Merge: e5bd6de 968c270
+Author: Houssam Abd El Moniem <31729534+Houssam5@users.noreply.github.com>
+Date:   Wed May 6 19:59:45 2020 +0200
+
+    Merge branch 'experimental-branch' into Houssam's_Editing
+
+[33mcommit 968c2700bb1f02a1b7109a8ffa58164a0d943044[m[33m ([m[1;31morigin/experimental-branch[m[33m)[m
+Author: asmaaabdeen <asmaaabdeen@gmail.com>
+Date:   Wed May 6 19:50:27 2020 +0200
+
+    updated customerscontroller
+
+[33mcommit e5bd6dee591f6cfcd25431b81492a796f638ce60[m
+Author: Houssam Abd El Moniem <31729534+Houssam5@users.noreply.github.com>
+Date:   Wed May 6 19:50:24 2020 +0200
+
+    route
+
+[33mcommit aab4271536fa74b638b390d6ae5dfd094a0aba38[m
+Merge: 58d4956 8cf1b23
+Author: Houssam Abd El Moniem <31729534+Houssam5@users.noreply.github.com>
+Date:   Wed May 6 05:26:27 2020 +0200
+
+    Merge branch 'experimental-branch' into Houssam's_Editing
+
+[33mcommit 58d49565bde6e08c4c59d62d519c8de7044a8920[m
+Merge: 903fb79 69becce
+Author: Houssam Abd El Moniem <31729534+Houssam5@users.noreply.github.com>
+Date:   Wed May 6 05:20:08 2020 +0200
+
+    Merge branch 'experimental-branch' into Houssam's_Editing
+
+[33mcommit 8cf1b2304db63cb404017a04705d7178e649f8cd[m
+Merge: 83efc31 69becce
+Author: asmaaabdeen <asmaaabdeen@gmail.com>
+Date:   Wed May 6 05:17:12 2020 +0200
+
+    created login and dashboard pages
+
+[33mcommit 83efc31e5a25819066ea7ec0dd1896f9d56b2fd4[m
+Author: asmaaabdeen <asmaaabdeen@gmail.com>
+Date:   Wed May 6 04:55:31 2020 +0200
+
+    created login page and dashboard
+
+[33mcommit 69becce05bd53565f46a71229bee96950a36ad82[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Tue May 5 23:04:01 2020 +0200
+
+    update routes
+
+[33mcommit 43a9cc5bbb219b09953df609adadf741e939b7fa[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Tue May 5 22:57:42 2020 +0200
+
+    update make order
+
+[33mcommit 8c15d1720c2378597b2fb91aebbae3a83811e470[m
+Merge: 4e068c6 3be68d1
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Tue May 5 22:48:10 2020 +0200
+
+    Merge branch 'experimental-branch' of https://github.com/asmaaabdeen/first_upload into experimental-branch
+
+[33mcommit 4e068c6594ac9282ac5f4cddc3775c0558d69c33[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Tue May 5 22:44:10 2020 +0200
+
+    update make order
+
+[33mcommit 95ee1df1eb2679c2cd85b305c96e49c4be9285f1[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Tue May 5 22:32:32 2020 +0200
+
+    update make order
+
+[33mcommit 3be68d1b5a5098c9b1bfa32d51be0db416a50cb5[m
+Author: Houssam Abd El Moniem <31729534+Houssam5@users.noreply.github.com>
+Date:   Tue May 5 20:20:38 2020 +0200
+
+    editing route
+
+[33mcommit f1bf9a7c356da5fe209ddff9c006d2aa90150b1e[m
+Author: Houssam Abd El Moniem <31729534+Houssam5@users.noreply.github.com>
+Date:   Tue May 5 20:19:34 2020 +0200
+
+    editing route
+
+[33mcommit 7cfc50488ffa294cd49e8954d7d5bbd64bfda873[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Tue May 5 16:43:55 2020 +0200
+
+    update make order
+
+[33mcommit 552ba08c7fbc2ddb2b102e248e656fbebb6887ff[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Tue May 5 01:31:09 2020 +0200
+
+    make order
+
+[33mcommit adc973000478be7cd1ef291df3de598f6df65f51[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Mon May 4 02:22:52 2020 +0200
+
+    make order
+
+[33mcommit df493ec7b14b5e084253875f32fef41e3b58f2e4[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Mon May 4 01:25:10 2020 +0200
+
+    make order
+
+[33mcommit f3e90e8267b846014224595ccc167715753016d9[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Sun May 3 20:43:25 2020 +0200
+
+    make order
+
+[33mcommit 4d0e887b999cad457175f779b8f88bfa8741e0df[m
+Author: asmaamohamed22 <asmaamohamed22299@gmail.com>
+Date:   Sun May 3 19:53:30 2020 +0200
+
+    make order
+
+[33mcommit 31bced65b0fcdd15f5742f6ac9845c972a65f7f3[m
+Merge: 7d80a81 049703b
+Author: asmaaabdeen <62287975+asmaaabdeen@users.noreply.github.com>
+Date:   Sat Apr 18 20:26:27 2020 +0200
+
+    updated register and update profile
+
+[33mcommit 7d80a81b9e8cf8b4faeb31024e309cc1383959c7[m
+Author: asmaaabdeen <62287975+asmaaabdeen@users.noreply.github.com>
+Date:   Thu Apr 16 21:29:09 2020 +0200
+
+    updated register validation rule
+
+[33mcommit 049703b546980ae71152bbf9f0deceb1f0a040d7[m
+Author: sallygirgesbishara44 <sallygirges1998@gmail.com>
+Date:   Thu Apr 16 20:57:06 2020 +0200
+
+    Profile Update
+
+[33mcommit 903fb79692f232277db6e91deaf9aabb9a0b7d6c[m
+Author: Houssam Abd El Moniem <31729534+Houssam5@users.noreply.github.com>
+Date:   Wed Apr 15 23:40:40 2020 +0200
+
+    Update1
+
+[33mcommit e29c
