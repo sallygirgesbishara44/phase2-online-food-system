@@ -73,4 +73,5 @@ Route::post('/addKS/added','StaffController@store');
 Route::get('/addDB','StaffController@addDelevStaff');
 Route::post('/addDB/added','StaffController@store2');
 
-
+Route::get('/KSlist','StaffController@remove');
+Route::post('/delete','StaffController@delete');
