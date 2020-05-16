@@ -18,6 +18,7 @@
                             <h5>{{ $product->name }}</h5>
                             <p>{{ strtolower($product->description) }}</p>
                             <p><strong>Price: </strong> {{ $product->price }}$</p>
+                            
                             <p class="btn-holder"><a href="javascript:void(0);" data-id="{{ $product->id }}" class="btn btn-warning btn-block text-center add-to-order" role="button">Add to order</a>
                                 <i class="fa fa-circle-o-notch fa-spin btn-loading" style="font-size:24px; display: none"></i>
                             </p>

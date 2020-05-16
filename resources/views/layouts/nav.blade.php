@@ -38,7 +38,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/menu">Menu</a>
         </li>
-        
+        <li class="nav-item">
+          <a class="nav-link" href="/calories">calories</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="/contacts">Contacts</a>
         </li>

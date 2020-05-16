@@ -52,9 +52,10 @@ Route::get('/updates', function () {
 
    Route::delete('remove-from-order', 'ProductsController@remove');
 
-   Route::get('/calories', function () {
-    return view('calories');
-});
+
+   Route::get('/calories', 'PDFController@PDFgenerator');
+
+
     Route::get('/login','customerscontroller@login');
     Route::post('/logs','customerscontroller@logs');
     Route::get('/dashboard', function () {

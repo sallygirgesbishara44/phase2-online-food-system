@@ -30,17 +30,13 @@
     }
   table.center {
     width:100%; 
-    margin-left:15%; 
-    margin-right:15%;
+    border-collapse: collapse;
   }
   table#showfeedback {
-    margin-left:2px; 
-    margin-right:2px; 
-    
     background-color: white;
   }
   #showfeedback td, #showfeedback th {
-  border: 1px #ddd;
+  border: 1px solid #ddd;
   padding: 15px;
 }
   #showfeedback tr:nth-child(even){background-color: white;}
@@ -53,6 +49,6 @@
   background-color: Peru;
   color: white;
   }
-  tr,td {text-align:left; padding-top: 15px; padding-bottom: 15px;}
+  tr,td {text-align:left;}
 </style>
 </html>

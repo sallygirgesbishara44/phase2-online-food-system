@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Product;
 use App\Order;
+
 use Illuminate\Http\Request;
 use Auth;
 
@@ -15,7 +16,7 @@ class ProductsController extends Controller
 
         return view('products', compact('products'));
     }
-
+    
     public function order()
     {
         return view('order');
@@ -129,8 +130,8 @@ class ProductsController extends Controller
             //session()->flash('success', 'Product removed successfully');
         }
     }
-
-
+   
+    
     /**
      * getOrderTotal
      *
@@ -167,4 +168,5 @@ class ProductsController extends Controller
       Auth::customers()->orders()->save($order);
 
     }
+   
 }
