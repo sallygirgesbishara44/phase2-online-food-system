@@ -39,7 +39,7 @@ Route::get('/updates', function () {
     //Route::get('/profile.show','profileController@show');
 
     Route::resource('/profile', 'profileController') ;
-
+    Route::resource('/chef', 'chefController') ;
    //make order
 
 
